@@ -1,13 +1,48 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T21:12:31Z",
+  "generatedAt": "2026-11-09T21:17:36Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
   "files": [
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/capes/PedritoBM.png",
+      "mode": "sync",
+      "sha256": "953cac8b779fe41383e675ee2b86071a71658f2180f56fbce8aa315ea70e2ed6",
+      "size": 937,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/capes/PedritoBM.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/capes/d1sthym.png",
+      "mode": "sync",
+      "sha256": "e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980",
+      "size": 754,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/capes/d1sthym.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/Marcocho.png",
+      "mode": "sync",
+      "sha256": "36290043e2ea8ebf1d8a0c98d51b31fa4a89da44ad0745d29b4fc208ed35a8c3",
+      "size": 3288,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/Marcocho.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/PedritoBM.png",
+      "mode": "sync",
+      "sha256": "9fc2c91661556b994dcf44b74af9dcd3b258a5aecf7e2ae28fad4e49835eb249",
+      "size": 490,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/PedritoBM.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/d1sthym.png",
+      "mode": "sync",
+      "sha256": "36290043e2ea8ebf1d8a0c98d51b31fa4a89da44ad0745d29b4fc208ed35a8c3",
+      "size": 3288,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/d1sthym.png"
+    },
     {
       "path": ".minecraft/config/CoroUtil/General.toml",
       "mode": "add-if-missing",
@@ -686,6 +721,13 @@
       "sha256": "c5d9767c1db11f90e2661f11d54aabc80dd93a45fb9f85f9cc6a3e951ebe6de1",
       "size": 1257391,
       "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v7fZmKvM/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/CustomSkinLoader_Universal-15.1.jar",
+      "mode": "sync",
+      "sha256": "c8769a38b3cc1da2a7b2f5827d1a53a24cd1ef6d0784b1eb545569f5882a2ffb",
+      "size": 222917,
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar"
     },
     {
       "path": ".minecraft/mods/CutThrough-v21.1.0-1.21.1-Fabric.jar",
