@@ -8,6 +8,7 @@ $ErrorActionPreference = "Stop"
 try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
 
 $ManifestUrls = @(
+    "https://api.github.com/repos/pedritobm/pbm-mods-pack/contents/manifest.json?ref=main",
     "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/manifest.json",
     "https://cdn.jsdelivr.net/gh/pedritobm/pbm-mods-pack@main/manifest.json"
 )
@@ -43,10 +44,20 @@ function Test-HostAllowed([string]$url) {
 function Get-Manifest {
     foreach ($u in $ManifestUrls) {
         try {
-            $url = $u + "?t=" + [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
-            $r = Invoke-RestMethod -Uri $url -UseBasicParsing -TimeoutSec 15 -Headers @{ "User-Agent" = "PBM-Mods-Updater/1.0" }
+            $sep = if ($u.Contains("?")) { "&" } else { "?" }
+            $url = $u + $sep + "t=" + [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
+            if ($u -match "api\.github\.com") {
+                $meta = Invoke-RestMethod -Uri $url -UseBasicParsing -TimeoutSec 15 -Headers @{ "User-Agent" = "PBM-Mods-Updater/1.0" }
+                if (-not $meta.content) { throw "sin contenido" }
+                $txt = [Text.Encoding]::UTF8.GetString([Convert]::FromBase64String(($meta.content -replace "\s", "")))
+                $txt = $txt.TrimStart([char]0xFEFF)
+                $r = $txt | ConvertFrom-Json
+            } else {
+                $r = Invoke-RestMethod -Uri $url -UseBasicParsing -TimeoutSec 15 -Headers @{ "User-Agent" = "PBM-Mods-Updater/1.0" }
+                if ($r -is [string]) { $r = ($r.TrimStart([char]0xFEFF)) | ConvertFrom-Json }
+            }
             if ($r -and $r.version -and $r.files) { return $r }
-            Write-Log "Manifest invalido desde $u (tipo: $($r.GetType().FullName))" "Yellow"
+            Write-Log "Manifest invalido desde $u" "Yellow"
         } catch {
             Write-Log "No pude bajar $u : $($_.Exception.Message)" "Yellow"
         }
