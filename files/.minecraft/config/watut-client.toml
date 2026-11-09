@@ -49,7 +49,7 @@
 	playMouseClickSounds = true
 	#Adjusts the size of the gui visual that appears infront of a player, 2 = twice the size
 	#Range: 0.1 ~ 1.7976931348623157E308
-	particleSizeScale = 2.0
+	particleSizeScale = 1.0
 	#Delay between ticks your client will accept and update new image of another players gui, you can only increase the delay from what the server/other client is set to, 10 = twice a second
 	#Range: > 0
 	tickReceiveAndRenderRateOfGUIUpdates = 10

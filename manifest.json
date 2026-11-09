@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T20:06:38Z",
+  "generatedAt": "2026-11-09T20:24:00Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -620,7 +620,7 @@
     {
       "path": ".minecraft/config/watut-client.toml",
       "mode": "sync",
-      "sha256": "b95f164df0b59598f8521e34d860c3c645a519555b45d249e6fc62b854292588",
+      "sha256": "6926bfb3a0fe5e701f7002eea9725fcf36e7fb895c7ab390dfbc21efb9ba3d18",
       "size": 3320,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/watut-client.toml"
     },
