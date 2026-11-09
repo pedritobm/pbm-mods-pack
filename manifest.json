@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T20:59:35Z",
+  "generatedAt": "2026-11-09T21:04:05Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1120,6 +1120,13 @@
       "sha256": "92f3c38dcc2ecb8a6407d3a8bf91062f8d44c0483b7a35b108da80a9be1507c1",
       "size": 42373,
       "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar"
+    },
+    {
+      "path": ".minecraft/mods/strayskins-1.21.1-fabric-1.2.1.jar",
+      "mode": "sync",
+      "sha256": "d83fd79d27932e89ee26c1fca52b17c35be6ce9db4f24b14085c8aa1678ee8ed",
+      "size": 171890,
+      "url": "https://cdn.modrinth.com/data/OFY20RfV/versions/cCqTEDDA/strayskins-1.21.1-fabric-1.2.1.jar"
     },
     {
       "path": ".minecraft/mods/tooltipfix-1.1.1-1.20.jar",
