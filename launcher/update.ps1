@@ -28,6 +28,10 @@ function Write-Log([string]$msg, [string]$color = "Gray") {
     if (-not $Quiet) { Write-Host $msg -ForegroundColor $color }
 }
 
+function Write-Status([string]$msg, [string]$color = "Cyan") {
+    Write-Host "  [Pack] $msg" -ForegroundColor $color
+}
+
 function Get-Sha256([string]$path) {
     return (Get-FileHash -Algorithm SHA256 -Path $path).Hash.ToLower()
 }
@@ -81,6 +85,7 @@ try {
     $manifest = Get-Manifest
     if (-not $manifest) {
         Write-Log "No se pudo leer el manifest (sin internet o GitHub caido). Se juega con lo que hay." "Yellow"
+        Write-Status "sin conexion; se juega con lo que hay" "Yellow"
         exit 0
     }
 
@@ -92,15 +97,18 @@ try {
     if ($state -and $state.version -eq $manifest.version -and -not $Force) {
         $verified = $null
         if ($state.verifiedAt) { try { $verified = [datetime]$state.verifiedAt } catch {} }
-        if ($verified -and ((Get-Date) - $verified).TotalDays -lt $VerifyDays) { exit 0 }
+        if ($verified -and ((Get-Date) - $verified).TotalDays -lt $VerifyDays) {
+            Write-Status "al dia ($($manifest.version))" "Green"
+            exit 0
+        }
     }
 
-    if (-not $Quiet) {
-        if ($state -and $state.version -ne $manifest.version) {
-            Write-Host "Actualizando pack $($state.version) -> $($manifest.version)..." -ForegroundColor Cyan
-        } elseif (-not $state) {
-            Write-Host "Verificando pack ($($manifest.version))..." -ForegroundColor Cyan
-        }
+    if ($state -and $state.version -ne $manifest.version) {
+        Write-Status "actualizando $($state.version) -> $($manifest.version)..." "Cyan"
+    } elseif (-not $state) {
+        Write-Status "verificando pack ($($manifest.version))..." "Cyan"
+    } else {
+        Write-Status "verificando cambios..." "Cyan"
     }
 
     $tmpRoot = Join-Path $env:TEMP ("pbm-update-" + [guid]::NewGuid().ToString("N"))
@@ -194,15 +202,16 @@ try {
         }
         $newState | ConvertTo-Json | Set-Content -Path $StatePath -Encoding UTF8
         if ($downloaded -gt 0) {
-            Write-Log "Pack actualizado a $($manifest.version) ($downloaded archivo/s)." "Green"
+            Write-Status "actualizado a $($manifest.version) ($downloaded archivo/s)" "Green"
         } else {
-            Write-Log "Pack al dia ($($manifest.version))." "Green"
+            Write-Status "al dia ($($manifest.version))" "Green"
         }
     } else {
-        Write-Log "Pack con $errors error(es); se reintenta en el proximo inicio (ver launcher\update.log)." "Yellow"
+        Write-Status "$errors error(es); revisar launcher\update.log" "Yellow"
     }
 } catch {
     Write-Log "Error de actualizacion: $($_.Exception.Message)" "Yellow"
+    Write-Status "no se pudo actualizar; se juega igual" "Yellow"
 } finally {
     if ($tmpRoot -and (Test-Path $tmpRoot)) { Remove-Item $tmpRoot -Recurse -Force -ErrorAction SilentlyContinue }
     Remove-Item $LockPath -Force -ErrorAction SilentlyContinue
