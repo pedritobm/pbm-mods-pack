@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T20:32:45Z",
+  "generatedAt": "2026-11-09T20:37:30Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -945,6 +945,13 @@
       "sha256": "3b46ddc0911b8bfc2ba6eabae03f7071afee8b5816a3f11104d7899073a023d3",
       "size": 1709158,
       "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar"
+    },
+    {
+      "path": ".minecraft/mods/iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+      "mode": "sync",
+      "sha256": "0ceb694040b4628bf3fa02286cfe5f0db833195669ab07f8caa4001359763eff",
+      "size": 2791343,
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/jamlib-fabric-1.3.6+1.21.1.jar",
