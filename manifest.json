@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T06:38:02Z",
+  "generatedAt": "2026-11-09T20:06:38Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -616,6 +616,13 @@
       "sha256": "8eef0f4ffe4fc1e9773939558fa617407e988fed3ae0718a21c61ac22f2c68c5",
       "size": 1186,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/wakes.json"
+    },
+    {
+      "path": ".minecraft/config/watut-client.toml",
+      "mode": "sync",
+      "sha256": "b95f164df0b59598f8521e34d860c3c645a519555b45d249e6fc62b854292588",
+      "size": 3320,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/watut-client.toml"
     },
     {
       "path": ".minecraft/config/watut-item-arm-adjustments.json",

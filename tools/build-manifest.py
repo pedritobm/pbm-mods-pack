@@ -23,7 +23,7 @@ USER_AGENT = "PBM-Modpack-Builder/1.0 (pedritobm)"
 EXCLUDE_DIRS = {"juxtui", "voicechat", "xaero"}
 EXCLUDE_FILES = {
     "iris.properties", "sodium-options.json", "sodium-extra-options.json",
-    "watut-client.toml", "watut-common.toml", "lumevale-camera.json",
+    "lumevale-camera.json",
     "last-world-panorama.json", "xaerohud.txt", "xaeropatreon.txt",
     "pbms_mods.json.bak_softvision", "usernamecache.json", "last_played.json",
 }
@@ -106,7 +106,7 @@ def main():
             manifest_rel = ".minecraft/config/" + rel.replace("\\", "/")
             entries.append({
                 "path": manifest_rel,
-                "mode": "add-if-missing",
+                "mode": ("sync" if name == "watut-client.toml" else "add-if-missing"),
                 "sha256": sha256(dst),
                 "size": os.path.getsize(dst),
                 "url": f"{RAW_BASE}/files/{url_path('.minecraft/config/' + rel)}",
