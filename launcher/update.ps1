@@ -43,10 +43,13 @@ function Test-HostAllowed([string]$url) {
 function Get-Manifest {
     foreach ($u in $ManifestUrls) {
         try {
-            $url = "$u?t=$([DateTimeOffset]::UtcNow.ToUnixTimeSeconds())"
+            $url = $u + "?t=" + [DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
             $r = Invoke-RestMethod -Uri $url -UseBasicParsing -TimeoutSec 15 -Headers @{ "User-Agent" = "PBM-Mods-Updater/1.0" }
             if ($r -and $r.version -and $r.files) { return $r }
-        } catch { }
+            Write-Log "Manifest invalido desde $u (tipo: $($r.GetType().FullName))" "Yellow"
+        } catch {
+            Write-Log "No pude bajar $u : $($_.Exception.Message)" "Yellow"
+        }
     }
     return $null
 }
