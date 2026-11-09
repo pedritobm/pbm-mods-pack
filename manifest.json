@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T21:38:07Z",
+  "generatedAt": "2026-11-09T22:01:02Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1169,6 +1169,13 @@
       "sha256": "92f3c38dcc2ecb8a6407d3a8bf91062f8d44c0483b7a35b108da80a9be1507c1",
       "size": 42373,
       "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar"
+    },
+    {
+      "path": ".minecraft/mods/tokimistoolshed-fabric-1.8+mc1.21.jar",
+      "mode": "sync",
+      "sha256": "d6dce8cfe3d48895f91ca5675ba35be03a2b123e2d523d8c21a6f39e20baa513",
+      "size": 725612,
+      "url": "https://cdn.modrinth.com/data/2HaoWnJc/versions/koJtbek6/tokimistoolshed-fabric-1.8%2Bmc1.21.jar"
     },
     {
       "path": ".minecraft/mods/tooltipfix-1.1.1-1.20.jar",
