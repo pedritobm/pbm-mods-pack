@@ -1,0 +1,22 @@
+{
+  "ingame.showButtonInGamePauseMenu": true,
+  "ingame.pauseMenuButtonVerticalOffset": 0,
+  "ingame.showButtonOnTitleScreen": true,
+  "ingame.titleScreenButtonHorizontalOffset": 0,
+  "ingame.redirectScreenshotChatLinks": false,
+  "ingui.screenshotsFolder": "C:\\Users\\Administrator\\Downloads\\PBM Mods 1.21.1\\.minecraft\\screenshots",
+  "ingui.defaultListOrder": "ASCENDING",
+  "ingui.promptWhenDeletingScreenshot": true,
+  "ingui.enableScreenshotEnlargementAnimation": true,
+  "ingui.displayHintTooltip": true,
+  "ingui.renderWidePropertiesButton": true,
+  "ingui.invertZoomDirection": false,
+  "ingui.initialScreenshotAmountPerRow": 4,
+  "ingui.screenScrollSpeed": 10,
+  "ingui.screenshotElementBackgroundOpacity": 100,
+  "ingui.screenshotElementTextVisibility": "VISIBLE",
+  "ingui.screenshotElementTextColor": "#FFFFFF",
+  "ingui.renderScreenshotElementFontShadow": true,
+  "screenshot_thumbnails.screenshotsFolder": "C:\\Users\\Administrator\\Downloads\\PBM Mods 1.21.1\\.minecraft\\screenshots\\thumbnails",
+  "screenshot_thumbnails.compression_ratio": "NONE"
+}

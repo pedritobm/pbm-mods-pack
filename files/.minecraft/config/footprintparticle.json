@@ -1,0 +1,114 @@
+{
+  "enableMod": "ALL",
+  "wetDuration": 10,
+  "secPerPrint": 5,
+  "printLifetime": 5.0,
+  "watermarkLifetime": 5.0,
+  "lifeTimeAcc": 0,
+  "footprintAlpha": 7,
+  "watermarkAlpha": 4,
+  "printHeight": 0,
+  "applyBlocks": [
+    "#minecraft:wool"
+  ],
+  "hardnessGate": 0.7,
+  "excludedBlocks": [
+    "#minecraft:beehives",
+    "#minecraft:pressure_plates",
+    "minecraft:brewing_stand",
+    "minecraft:composter",
+    "minecraft:tnt",
+    "minecraft:target",
+    "minecraft:daylight_detector",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:redstone_lamp",
+    "minecraft:sea_lantern",
+    "minecraft:glowstone",
+    "minecraft:magma_block",
+    "minecraft:big_dripleaf",
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight"
+  ],
+  "blockHeight": {
+    "minecraft:snow": 0.125,
+    "minecraft:soul_sand": 0.125,
+    "minecraft:mud": 0.125
+  },
+  "canGenWhenInvisible": true,
+  "excludedMobs": [
+    "minecraft:parrot",
+    "minecraft:bee",
+    "minecraft:bat",
+    "minecraft:phantom",
+    "minecraft:endermite",
+    "minecraft:blaze",
+    "minecraft:ghast",
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:vex",
+    "minecraft:allay"
+  ],
+  "mobInterval": {
+    "minecraft:spider": 0.5,
+    "minecraft:cave_spider": 0.5,
+    "minecraft:iron_golem": 2.0,
+    "minecraft:creeper": 0.8,
+    "minecraft:camel": 2.0,
+    "minecraft:sniffer": 3.0,
+    "minecraft:breeze": 0.3
+  },
+  "sizePerMob": {
+    "minecraft:chicken": 0.6,
+    "minecraft:pig": 0.8,
+    "minecraft:cat": 0.5,
+    "minecraft:ocelot": 0.5,
+    "minecraft:wolf": 0.6,
+    "minecraft:rabbit": 0.7,
+    "minecraft:enderman": 0.6,
+    "minecraft:slime": 2.0,
+    "minecraft:magma_cube": 2.0,
+    "minecraft:creeper": 0.8,
+    "minecraft:iron_golem": 1.2,
+    "minecraft:ravager": 2.0,
+    "minecraft:sniffer": 1.6,
+    "minecraft:armadillo": 0.7
+  },
+  "horseLikeMobs": {
+    "minecraft:horse": null,
+    "minecraft:donkey": null,
+    "minecraft:mule": null,
+    "minecraft:zombie_horse": null,
+    "minecraft:skeleton_horse": null,
+    "minecraft:ravager": 0.5,
+    "minecraft:creeper": 0.3,
+    "minecraft:camel": null,
+    "minecraft:sniffer": 0.8
+  },
+  "spiderLikeMobs": {
+    "minecraft:spider": null,
+    "minecraft:cave_spider": null,
+    "minecraft:rabbit": 0.3,
+    "minecraft:iron_golem": 0.3,
+    "minecraft:ravager": 0.3,
+    "minecraft:slime": 0.3,
+    "minecraft:magma_cube": 0.3,
+    "minecraft:camel": 0.3,
+    "minecraft:sniffer": 0.3,
+    "minecraft:breeze": 0.1
+  },
+  "customPrint": {
+    "mod_id:mob_id": [
+      "fileName_NoExtend"
+    ]
+  },
+  "footprintSize": 5,
+  "railFlameRange": 2,
+  "enableBoatTrail": true,
+  "swimPopLevel": "ALL",
+  "snowDustLevel": "ALL",
+  "waterSplashLevel": "PLAYER_ONLY",
+  "genHeightGap": 5,
+  "genDistChunk": 4
+}

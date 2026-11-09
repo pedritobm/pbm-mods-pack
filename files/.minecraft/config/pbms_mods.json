@@ -1,0 +1,10 @@
+{
+  "strength": 0.9,
+  "softVisionEnabled": true,
+  "rainbowOutline": true,
+  "rainbowSpeed": 0.25,
+  "pickupNotifications": true,
+  "pickupNotificationDuration": 120,
+  "pickupNotificationMax": 4,
+  "pickupNotificationPosition": "top_right"
+}
