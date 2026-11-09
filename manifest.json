@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T22:02:41Z",
+  "generatedAt": "2026-11-09T22:39:18Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -744,6 +744,13 @@
       "url": "https://cdn.modrinth.com/data/Dk6su9JN/versions/EDWIJkMA/CutThrough-v21.1.0-1.21.1-Fabric.jar"
     },
     {
+      "path": ".minecraft/mods/FarmersDelight-1.21.1-3.3.6+refabricated.jar",
+      "mode": "sync",
+      "sha256": "c719a1e92f1e16f953265069afa9b5d52f2119b434e1f6e0ad4d7a1e449941dc",
+      "size": 3243316,
+      "url": "https://cdn.modrinth.com/data/7vxePowz/versions/wbVXT4Ua/FarmersDelight-1.21.1-3.3.6%2Brefabricated.jar"
+    },
+    {
       "path": ".minecraft/mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
       "mode": "sync",
       "sha256": "2e3a8f0e3bda85a7d722720e7ce879cbd9d028d9395c6fc224d329b3c982d9b1",
@@ -891,6 +898,13 @@
       "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/U0NUocji/coroutil-fabric-1.21.1-1.3.8.jar"
     },
     {
+      "path": ".minecraft/mods/crittersandcompanions-fabric-1.21.1-2.7.0.jar",
+      "mode": "sync",
+      "sha256": "02f91e85b53cff8da257d74f3924f42f9ca44238d8a4c04d226470581c476341",
+      "size": 4193551,
+      "url": "https://cdn.modrinth.com/data/Yd4wb5wZ/versions/p19ZPlZD/crittersandcompanions-fabric-1.21.1-2.7.0.jar"
+    },
+    {
       "path": ".minecraft/mods/cropsloverain-3.2.2.jar",
       "mode": "sync",
       "sha256": "0d8bdbca616f8ad65c873a9a7443a6b7712086dace501da4996c4ce50d6c4509",
@@ -947,6 +961,13 @@
       "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/yllJFBpU/entityculling-fabric-1.11.3-mc1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/epic-knights-1.21.1-fabric-10.16.jar",
+      "mode": "sync",
+      "sha256": "5ea860a665469dafa982050f0828724fbed2286e5f639cda39f05b880c01513d",
+      "size": 2787547,
+      "url": "https://cdn.modrinth.com/data/L6jvzao4/versions/dLYqLDl7/epic-knights-1.21.1-fabric-10.16.jar"
+    },
+    {
       "path": ".minecraft/mods/fabric-api-0.116.17+1.21.1.jar",
       "mode": "sync",
       "sha256": "79ac44b40780acbd884b34c50be1e39af682847e5f5cb3b1fddeeaa768dce800",
@@ -966,6 +987,13 @@
       "sha256": "67e2071d6c25e2638573e6ee91a146b77e38d77edddbb26f45006ab878ebca77",
       "size": 170056,
       "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/Y0zS16Bk/fallingleaves-1.17.1%2B1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/fantasy-armor-1.3.1-1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "0e59c1d049950de75b1a1dae05a68ac5a658fb3ac8f9385519758d6411ef51ff",
+      "size": 594826,
+      "url": "https://cdn.modrinth.com/data/oVmpjYQ5/versions/8n82ixyl/fantasy-armor-1.3.1-1.21.1-fabric.jar"
     },
     {
       "path": ".minecraft/mods/ferritecore-7.0.3-fabric.jar",
@@ -989,6 +1017,13 @@
       "url": "https://cdn.modrinth.com/data/XeEZ3fK2/versions/Cg10zLnR/freecam-fabric-1.3.0%2Bmc1.21.jar"
     },
     {
+      "path": ".minecraft/mods/friendsandfoes-fabric-5.0.4+mc1.21.1.jar",
+      "mode": "sync",
+      "sha256": "ba31449adc6addfd4f16914e88531eb4a9dcf1877c7fe5791f087eba26ac7424",
+      "size": 5289491,
+      "url": "https://cdn.modrinth.com/data/POQ2i9zu/versions/uh0ha6mZ/friendsandfoes-fabric-5.0.4%2Bmc1.21.1.jar"
+    },
+    {
       "path": ".minecraft/mods/fwa-1.21.1-1.3.4.jar",
       "mode": "sync",
       "sha256": "8c284e10f13cbf6e37c1638a1d449f3f72344a49adec5e19e26ceefa50029b0b",
@@ -996,11 +1031,32 @@
       "url": "https://cdn.modrinth.com/data/IAzUFvS6/versions/H6bKBxif/fwa%2B1.21.1-1.3.4.jar"
     },
     {
+      "path": ".minecraft/mods/geckolib-fabric-1.21.1-4.9.3.jar",
+      "mode": "sync",
+      "sha256": "70186c70660e8de6c58f5b28625f71ae9e80eb0ad81b5d47b62fd5809bef2ee0",
+      "size": 664463,
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/tmxM7U4W/geckolib-fabric-1.21.1-4.9.3.jar"
+    },
+    {
       "path": ".minecraft/mods/graves-3.4.4+1.21.jar",
       "mode": "sync",
       "sha256": "3b46ddc0911b8bfc2ba6eabae03f7071afee8b5816a3f11104d7899073a023d3",
       "size": 1709158,
       "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar"
+    },
+    {
+      "path": ".minecraft/mods/immersive_aircraft-fabric-1.7.0+1.21.1.jar",
+      "mode": "sync",
+      "sha256": "563801755e9d1aa8792e2b62bf53cb5a14c8a85f2891075ddc8a40485ab6c6f6",
+      "size": 2547564,
+      "url": "https://cdn.modrinth.com/data/x3HZvrj6/versions/xOnNs6dK/immersive_aircraft-fabric-1.7.0%2B1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/immersive_armors-1.7.6+1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "33b2c6828579480bd778487bb1920d45284cffb3be6731fdee944ce9eebf135d",
+      "size": 1262873,
+      "url": "https://cdn.modrinth.com/data/eE2Db4YU/versions/4m0lwLNO/immersive_armors-1.7.6%2B1.21.1-fabric.jar"
     },
     {
       "path": ".minecraft/mods/iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
@@ -1059,11 +1115,25 @@
       "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar"
     },
     {
+      "path": ".minecraft/mods/moonlight-1.21.1-3.8.3-fabric.jar",
+      "mode": "sync",
+      "sha256": "372886214cd261f6542f7c81bb4f6fba4c8139b8a9db68ee5885f7fc352135b2",
+      "size": 2353010,
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/uANIaPO7/moonlight-1.21.1-3.8.3-fabric.jar"
+    },
+    {
       "path": ".minecraft/mods/notenoughanimations-fabric-1.12.7-mc1.21.1.jar",
       "mode": "sync",
       "sha256": "bb80a203642110f110188cca5de0700a04c9004238b58594f3b43394283180c5",
       "size": 1876209,
       "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/pPdRjl6T/notenoughanimations-fabric-1.12.7-mc1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/oceansdelight-fdrf-fabric-1.0.3-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "1a14b8ec4ddfe54a74c0dee1ca568204c6cbc99b85d05867825283de768b5d9f",
+      "size": 95734,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/mods/oceansdelight-fdrf-fabric-1.0.3-1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/owo-lib-0.12.15.4+1.21.jar",
@@ -1101,6 +1171,13 @@
       "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/XtuPOKUN/reeses-sodium-options-fabric-2.2.4%2Bmc1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/resourcefullib-fabric-1.21-3.0.12.jar",
+      "mode": "sync",
+      "sha256": "93064c5aff85bf5e6385470f311fd1c7de172f58b02fefb1d2920db76f8cd8b5",
+      "size": 485586,
+      "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar"
+    },
+    {
       "path": ".minecraft/mods/rightclickharvest-fabric-4.6.1+1.21.1.jar",
       "mode": "sync",
       "sha256": "ad51405287cc76b6ce5f358b1ef36463ad5575520982fc697d531d3ceb74130f",
@@ -1134,6 +1211,13 @@
       "sha256": "af04f7c2d59aa72ff8c872a348b0e0eef65d25e1ae73bfe2abac0732a6709814",
       "size": 1914438,
       "url": "https://cdn.modrinth.com/data/zV5r3pPn/versions/U5tvqtlF/skinlayers3d-fabric-1.11.4-mc1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/smallships-fabric-1.21.1-2.0.2-fabric-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "4f2789f796160b297237e2c43162ac07d3945a65a8e70c77ad6a05e8fdd0c3c9",
+      "size": 3302742,
+      "url": "https://cdn.modrinth.com/data/rGWEHQrP/versions/vJnFZ5fQ/smallships-fabric-1.21.1-2.0.2-fabric-1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/smoothloadingscreen-1.0.9-1.21-1.21.1.jar",
@@ -1176,6 +1260,13 @@
       "sha256": "92f3c38dcc2ecb8a6407d3a8bf91062f8d44c0483b7a35b108da80a9be1507c1",
       "size": 42373,
       "url": "https://cdn.modrinth.com/data/x02cBj9Y/versions/ramqgou6/status-effect-bars-1.0.6.jar"
+    },
+    {
+      "path": ".minecraft/mods/supplementaries-1.21.1-4.0.2-fabric.jar",
+      "mode": "sync",
+      "sha256": "ba03c34c2533e5bff3803b3134d73c82abba337d62de55e33479ec20f3dc5272",
+      "size": 13669146,
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/CjTooKpp/supplementaries-1.21.1-4.0.2-fabric.jar"
     },
     {
       "path": ".minecraft/mods/tokimistoolshed-fabric-1.8+mc1.21.jar",
