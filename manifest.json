@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-10T15:28:00Z",
+  "generatedAt": "2026-11-10T23:46:26Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -793,6 +793,13 @@
       "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/Yx1tgJMI/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
     },
     {
+      "path": ".minecraft/mods/SimplyTooltips-fabric-0.1.5.jar",
+      "mode": "sync",
+      "sha256": "611c2fb043b5c4896c441d1099345767afcb368059b3b473d3c8a3eda920fc83",
+      "size": 5513375,
+      "url": "https://cdn.modrinth.com/data/6avVoBVB/versions/JNwqmYnu/SimplyTooltips-fabric-0.1.5.jar"
+    },
+    {
       "path": ".minecraft/mods/TravelersTitles-1.21.1-Fabric-5.1.3.jar",
       "mode": "sync",
       "sha256": "d89c1c377c0d33d8073696073b1af3e9472f418c2d700f607ce7b632939618b7",
@@ -833,6 +840,13 @@
       "sha256": "8384e1df572784dc969802cc75dd28a1c8f194bb2cb17aef4271c564e59b6d61",
       "size": 808190,
       "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/HY6fKMHC/balm-fabric-1.21.1-21.0.67.jar"
+    },
+    {
+      "path": ".minecraft/mods/bettercombat-fabric-2.4.0+1.21.1.jar",
+      "mode": "sync",
+      "sha256": "2ecd3284a4443300873bb7a7aba4643aacf91acd778b377faeffa44afe049b9b",
+      "size": 930023,
+      "url": "https://cdn.modrinth.com/data/5sy6g3kz/versions/JJQpBecL/bettercombat-fabric-2.4.0%2B1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/bettermounthud-1.2.4.jar",
@@ -940,6 +954,13 @@
       "url": "https://cdn.modrinth.com/data/pZ2wrerK/versions/daqt5qcK/emotecraft-for-MC1.21.1-2.4.12-fabric.jar"
     },
     {
+      "path": ".minecraft/mods/enchantments-encore-1.8.jar",
+      "mode": "sync",
+      "sha256": "39fd1f29f5bb0ddcf87ee4d60d0df58b264f06827c92de0e67b4c855afbaea64",
+      "size": 934594,
+      "url": "https://cdn.modrinth.com/data/GD1QoExk/versions/G0Ilv4nD/enchantments-encore-1.8.jar"
+    },
+    {
       "path": ".minecraft/mods/entity_model_features-3.3.12-1.21-fabric.jar",
       "mode": "sync",
       "sha256": "d089852c2b554165568ac786047a45efdc0f1141c607eca03f9e7e7e66524022",
@@ -1031,6 +1052,13 @@
       "url": "https://cdn.modrinth.com/data/IAzUFvS6/versions/H6bKBxif/fwa%2B1.21.1-1.3.4.jar"
     },
     {
+      "path": ".minecraft/mods/fzzy_config-0.7.7+1.21.jar",
+      "mode": "sync",
+      "sha256": "8183d6bf61e2b222bd628e0d3f6a01da50839244054e27ba4532e1768d709b8f",
+      "size": 2387721,
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/zFccjYag/fzzy_config-0.7.7%2B1.21.jar"
+    },
+    {
       "path": ".minecraft/mods/geckolib-fabric-1.21.1-4.9.3.jar",
       "mode": "sync",
       "sha256": "70186c70660e8de6c58f5b28625f71ae9e80eb0ad81b5d47b62fd5809bef2ee0",
@@ -1094,11 +1122,25 @@
       "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/ksaGCvSu/lambdynamiclights-4.8.11%2B1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/litematica-fabric-1.21-0.19.61.jar",
+      "mode": "sync",
+      "sha256": "81b66009d4e0868e9e3e2e1593e0942ba0c651ddd8300586ae1ffbd227b6ba24",
+      "size": 1642590,
+      "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/o7i8oi1Z/litematica-fabric-1.21-0.19.61.jar"
+    },
+    {
       "path": ".minecraft/mods/lithium-fabric-0.15.4+mc1.21.1.jar",
       "mode": "sync",
       "sha256": "92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa",
       "size": 797454,
       "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/malilib-fabric-1.21-0.21.10.jar",
+      "mode": "sync",
+      "sha256": "fed24701279ed7d55ea9e1bce9d4528e3f679ef9883c1ab7fb7a8c6a3fcd2915",
+      "size": 1411200,
+      "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar"
     },
     {
       "path": ".minecraft/mods/modernfix-fabric-5.25.1+mc1.21.1.jar",
@@ -1157,6 +1199,13 @@
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/mods/pbms_mods-1.0.3+mc1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/player-animation-lib-fabric-2.0.4+1.21.1.jar",
+      "mode": "sync",
+      "sha256": "86ef8a23a5bc8f86d67ed37f3a93380d3946bad64123b22862ed057e7b624efd",
+      "size": 204541,
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/CkedfDp3/player-animation-lib-fabric-2.0.4%2B1.21.1.jar"
+    },
+    {
       "path": ".minecraft/mods/puzzleslib-v21.1.66-mc1.21.1+fabric.jar",
       "mode": "sync",
       "sha256": "1a2a15f46bff3585ed2be60fb2bf46ff547187d8d5cc6c8f51fa4322802188ab",
@@ -1204,6 +1253,13 @@
       "sha256": "5f9235d61d8c6e226e7caf21c2ca1b900964a7c79f713d153fb1f5e76c9051c4",
       "size": 379091,
       "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/NSrItCES/shulkerboxtooltip-fabric-5.1.9%2B1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/simplyswords-fabric-1.70.2-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "d075edea5e00f1cf94dbb71831dbf5e253d8af34481ef245f85f1912a990af2d",
+      "size": 16207154,
+      "url": "https://cdn.modrinth.com/data/bK3Ubu9p/versions/3uFjo0ii/simplyswords-fabric-1.70.2-1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/skinlayers3d-fabric-1.11.4-mc1.21.1.jar",
