@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-09T22:39:18Z",
+  "generatedAt": "2026-11-10T15:28:00Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -46,8 +46,8 @@
     {
       "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/d1sthym.png",
       "mode": "sync",
-      "sha256": "36290043e2ea8ebf1d8a0c98d51b31fa4a89da44ad0745d29b4fc208ed35a8c3",
-      "size": 3288,
+      "sha256": "e407363c4b1c83d47903b77ba689bf1f47a5658e988b6328a859693d446af22a",
+      "size": 4160,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/d1sthym.png"
     },
     {
