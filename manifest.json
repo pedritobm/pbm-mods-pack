@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-10T23:46:26Z",
+  "generatedAt": "2026-11-11T00:12:32Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -891,11 +891,25 @@
       "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar"
     },
     {
+      "path": ".minecraft/mods/clutterbestiary-1.2.0-fabric-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "dbf1e39f16b09538967ab7950e254ff101f843263cca6551b6a25cf0490dc534",
+      "size": 1445463,
+      "url": "https://cdn.modrinth.com/data/FkbDiLgR/versions/SMLsIJmB/clutterbestiary-1.2.0-fabric-1.21.1.jar"
+    },
+    {
       "path": ".minecraft/mods/comforts-fabric-9.0.5+1.21.1.jar",
       "mode": "sync",
       "sha256": "73ff17028967a2e30731ea79aee2e18dd8e2d59a5dcd075facd6491cae1b2231",
       "size": 914494,
       "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/LUPOTXbk/comforts-fabric-9.0.5%2B1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/companions-fabric-1.21.1-1.3.7.jar",
+      "mode": "sync",
+      "sha256": "4d2913713d78a434273867784a2e6358ebc0ad0472299e6eab19d3fc0f851612",
+      "size": 7208862,
+      "url": "https://cdn.modrinth.com/data/ArBFNu9T/versions/MmkmGOni/companions-fabric-1.21.1-1.3.7.jar"
     },
     {
       "path": ".minecraft/mods/continuity-3.0.0+1.21.jar",
@@ -1106,6 +1120,13 @@
       "sha256": "1bc14659d8cf0cd9de801f56947950521134b25eb37725ce3ea94797b9165745",
       "size": 2416860,
       "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/f27XokoP/jei-1.21.1-fabric-19.64.0.455.jar"
+    },
+    {
+      "path": ".minecraft/mods/knightlib-fabric-1.21.1-2.0.5.jar",
+      "mode": "sync",
+      "sha256": "3c4c8b165be3d7e2144135b45f1e77ccd8f0d63010b09b86864f4aa889560817",
+      "size": 1323964,
+      "url": "https://cdn.modrinth.com/data/hAnl9nbm/versions/hOnFlY7P/knightlib-fabric-1.21.1-2.0.5.jar"
     },
     {
       "path": ".minecraft/mods/krypton-0.2.8.jar",
@@ -1351,6 +1372,13 @@
       "sha256": "99aa02d697ecba5aafd069ad8b3d362ec1255c0fc301722432a8c2d34638bf73",
       "size": 1529427,
       "url": "https://cdn.modrinth.com/data/rlloIFEV/versions/q2nboqiM/travelersbackpack-fabric-1.21.1-10.1.40.jar"
+    },
+    {
+      "path": ".minecraft/mods/useless-reptile-0.9.13-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "33b461e9908eefa6df54d97640095b53939e5625ec885f1a1eba971ddd74626f",
+      "size": 3517563,
+      "url": "https://cdn.modrinth.com/data/YE4QRt8F/versions/fLxTE60B/useless-reptile-0.9.13-1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/visuality-0.7.7+1.21.jar",
