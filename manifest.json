@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-11T01:42:16Z",
+  "generatedAt": "2026-11-11T20:10:16Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -716,6 +716,13 @@
       "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/BetterF3-11.0.3-Fabric-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "e0e4bb25fbe23b16b7574474ee9fde5cdc9757d05885bc43978f4ea5e8e258ad",
+      "size": 1810710,
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/phATjGhF/BetterF3-11.0.3-Fabric-1.21.1.jar"
+    },
+    {
       "path": ".minecraft/mods/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
       "mode": "sync",
       "sha256": "c5d9767c1db11f90e2661f11d54aabc80dd93a45fb9f85f9cc6a3e951ebe6de1",
@@ -854,13 +861,6 @@
       "sha256": "0aa803cc2c2a5162c4b3e0192028f91db5666471e87bca15af7d7d4f36588a3d",
       "size": 1057860,
       "url": "https://cdn.modrinth.com/data/BdKIyOLe/versions/2fKkBn4m/boatiview-fabric-0.0.6-1.21.1.jar"
-    },
-    {
-      "path": ".minecraft/mods/camera-unbound-0.4.0-beta.3+1.21.1.jar",
-      "mode": "sync",
-      "sha256": "527846da90c9d23f9e4e6819f294d3a392dd3f0e4c7ea451f3a102bc5da0c1d0",
-      "size": 2982165,
-      "url": "https://edge.forgecdn.net/files/9187/420/camera-unbound-0.4.0-beta.3%2b1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/cardinal-components-api-6.1.3.jar",
