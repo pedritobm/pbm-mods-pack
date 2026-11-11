@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-11T20:10:16Z",
+  "generatedAt": "2026-11-11T20:16:03Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -723,6 +723,13 @@
       "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/phATjGhF/BetterF3-11.0.3-Fabric-1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/CameraOverhaul-v2.1.2-fabric+mc[1.21-1.21.2].jar",
+      "mode": "sync",
+      "sha256": "0b09af97793995b0a93ec0a164ff8d0c189c81e9e07f442974abbac229fe53cd",
+      "size": 140020,
+      "url": "https://cdn.modrinth.com/data/m0oRwcZx/versions/B9tByLOZ/CameraOverhaul-v2.1.2-fabric%2Bmc%5B1.21-1.21.2%5D.jar"
+    },
+    {
       "path": ".minecraft/mods/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
       "mode": "sync",
       "sha256": "c5d9767c1db11f90e2661f11d54aabc80dd93a45fb9f85f9cc6a3e951ebe6de1",
@@ -1304,11 +1311,25 @@
       "url": "https://cdn.modrinth.com/data/rGWEHQrP/versions/vJnFZ5fQ/smallships-fabric-1.21.1-2.0.2-fabric-1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/smoothcamera-1.1.1.jar",
+      "mode": "sync",
+      "sha256": "8a43ecc51e415648bc73b04d037f33eec5276fe670d3a0cbd8314aed546d19a5",
+      "size": 65973,
+      "url": "https://cdn.modrinth.com/data/GG6Bb564/versions/n6xyqcsd/smoothcamera-1.1.1.jar"
+    },
+    {
       "path": ".minecraft/mods/smoothloadingscreen-1.0.9-1.21-1.21.1.jar",
       "mode": "sync",
       "sha256": "af0bcd640e06f4c0b6e1b648b7a051e285f4a02c884c826771bb1e8687609551",
       "size": 236326,
       "url": "https://cdn.modrinth.com/data/LkxC6kKT/versions/5AeYE8jK/smoothloadingscreen-1.0.9%2B1.21-1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/smooththirdpersoncamera-mc1.21.1-fabric-2.0.0.jar",
+      "mode": "sync",
+      "sha256": "557c1e3fea0c948d1edd9be3589262b089a4312aaae6b582300fd85bf6d21d3d",
+      "size": 864004,
+      "url": "https://cdn.modrinth.com/data/3iFwlaWN/versions/K50z5Rdn/smooththirdpersoncamera-mc1.21.1-fabric-2.0.0.jar"
     },
     {
       "path": ".minecraft/mods/sodium-extra-fabric-0.9.5+mc1.21.1.jar",
