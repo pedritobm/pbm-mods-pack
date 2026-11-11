@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-11T00:44:03Z",
+  "generatedAt": "2026-11-11T01:42:16Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1225,6 +1225,13 @@
       "sha256": "86ef8a23a5bc8f86d67ed37f3a93380d3946bad64123b22862ed057e7b624efd",
       "size": 204541,
       "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/CkedfDp3/player-animation-lib-fabric-2.0.4%2B1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/polymorph-fabric-1.1.0+1.21.1.jar",
+      "mode": "sync",
+      "sha256": "bc47b33c864b463167998680c296f513e6d06b42de6db03db0f274ae1f2ee671",
+      "size": 320928,
+      "url": "https://cdn.modrinth.com/data/tagwiZkJ/versions/Ng5Y6KVo/polymorph-fabric-1.1.0%2B1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/puzzleslib-v21.1.66-mc1.21.1+fabric.jar",
