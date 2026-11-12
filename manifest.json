@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-12T01:43:49Z",
+  "generatedAt": "2026-11-12T02:49:04Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -256,7 +256,7 @@
     {
       "path": ".minecraft/config/fabric/indigo-renderer.properties",
       "mode": "add-if-missing",
-      "sha256": "2e5b2f574c691446f64186c21e68246e6f17c6c6e653d3f64dc39d00f6d60590",
+      "sha256": "4a338a4f7eab43c532952efc8de30c293998cb0002365d6736b049314907b824",
       "size": 290,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/fabric/indigo-renderer.properties"
     },
@@ -480,8 +480,8 @@
     {
       "path": ".minecraft/config/jei/world/server/Servidor de Minecraft (sv24_minehost_com_ar 25425)/lookupHistory.json",
       "mode": "add-if-missing",
-      "sha256": "33c7db5fc20a43c219f5fbca49a53c54d8403e249cbbcb43a239c10156a90eea",
-      "size": 11554,
+      "sha256": "2b2c835f5e753207d6af7cdfcc18f1aeb403d18967d3de5a921690c522b7ae90",
+      "size": 10746,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/world/server/Servidor%20de%20Minecraft%20%28sv24_minehost_com_ar%2025425%29/lookupHistory.json"
     },
     {
@@ -585,14 +585,14 @@
     {
       "path": ".minecraft/config/naturalist-client.properties",
       "mode": "add-if-missing",
-      "sha256": "57b2971c01274f75bfe70856572fc22ac7bfd326c8fedd7b86ab240578d7fbdc",
+      "sha256": "3d3277aa9a31af082b66ad7e74e830977451f3251fa52572d075873fede2af56",
       "size": 82,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-client.properties"
     },
     {
       "path": ".minecraft/config/naturalist-server.properties",
       "mode": "add-if-missing",
-      "sha256": "d560dfc4e48ac4bb5be2f20d1db6430fd4df1facad2803ce2b33456481a2c3fd",
+      "sha256": "b3ecfa78672a3e25f95d2705ea3841796580bb629957c71f79adf2c1e0100821",
       "size": 1306,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-server.properties"
     },
@@ -669,7 +669,7 @@
     {
       "path": ".minecraft/config/scalablelux.properties",
       "mode": "add-if-missing",
-      "sha256": "1733b7de3fb4a9811ab164af55a000563380d2e0793235da6c13ac80df592700",
+      "sha256": "386d8707757b1007404c796f65bfcd9868f15b9464de82bec442b17a5adba417",
       "size": 84,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/scalablelux.properties"
     },
@@ -1157,6 +1157,13 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar"
     },
     {
+      "path": ".minecraft/mods/athena-fabric-1.21.1-4.0.6.jar",
+      "mode": "sync",
+      "sha256": "e17aad84c690ac4e46300a4180b3ae4077ffa4f526dbc82d117afbbff4ee83e4",
+      "size": 88425,
+      "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar"
+    },
+    {
       "path": ".minecraft/mods/balm-fabric-1.21.1-21.0.67.jar",
       "mode": "sync",
       "sha256": "8384e1df572784dc969802cc75dd28a1c8f194bb2cb17aef4271c564e59b6d61",
@@ -1526,6 +1533,13 @@
       "sha256": "1a14b8ec4ddfe54a74c0dee1ca568204c6cbc99b85d05867825283de768b5d9f",
       "size": 95734,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/mods/oceansdelight-fdrf-fabric-1.0.3-1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/oritech-fabric-1.21.1-1.2.13.jar",
+      "mode": "sync",
+      "sha256": "e7b0c76c3e700adb9751fcec2bbe077dc0619293d07860acd3a33b8a6bd3cc80",
+      "size": 10763611,
+      "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/GNbpMyOn/oritech-fabric-1.21.1-1.2.13.jar"
     },
     {
       "path": ".minecraft/mods/owo-lib-0.12.15.4+1.21.jar",
