@@ -48,6 +48,36 @@ $updater = Join-Path $PSScriptRoot "update.ps1"
 if (Test-Path $updater) {
     try { & $updater -PackRoot $root -Quiet } catch { Write-Host "  [Pack] no se pudo comprobar la actualizacion." -ForegroundColor Yellow }
 }
+
+# Deja activo el resource pack del server desde el inicio, sin esperar a que Polymer lo mande al conectar.
+$packName = "PBM_Server_Pack.zip"
+$packFile = Join-Path $mc "resourcepacks\$packName"
+$optionsFile = Join-Path $mc "options.txt"
+if ((Test-Path $packFile) -and (Test-Path $optionsFile)) {
+    try {
+        $packEntry = "file/$packName"
+        $lines = [System.IO.File]::ReadAllLines($optionsFile)
+        $changed = $false
+        for ($i = 0; $i -lt $lines.Length; $i++) {
+            if ($lines[$i].StartsWith("resourcePacks:")) {
+                $raw = $lines[$i].Substring("resourcePacks:".Length)
+                try { $packs = @($raw | ConvertFrom-Json) } catch { $packs = @() }
+                if ($packs -notcontains $packEntry) {
+                    $packs += $packEntry
+                    $lines[$i] = "resourcePacks:" + (ConvertTo-Json -InputObject ([object[]]$packs) -Compress)
+                    $changed = $true
+                }
+                break
+            }
+        }
+        if ($changed) {
+            [System.IO.File]::WriteAllLines($optionsFile, $lines, (New-Object System.Text.UTF8Encoding($false)))
+            Write-Host "  [Pack] resource pack del server activado." -ForegroundColor Green
+        }
+    } catch {
+        Write-Host "  [Pack] no se pudo activar el resource pack local." -ForegroundColor Yellow
+    }
+}
 Write-Host ""
 Write-Host "  Iniciando Minecraft..." -ForegroundColor Green
 Start-Sleep -Seconds 2

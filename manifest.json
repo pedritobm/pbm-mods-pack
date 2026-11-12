@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-12T00:45:51Z",
+  "generatedAt": "2026-11-12T00:54:17Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1498,6 +1498,20 @@
       "sha256": "91e8303b22d921074619252b9b66b9fc2127c97aa7a6d487f39056900c091547",
       "size": 1197001,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/resourcepacks/Immersive_Interfaces.zip"
+    },
+    {
+      "path": ".minecraft/resourcepacks/PBM_Server_Pack.zip",
+      "mode": "sync",
+      "sha256": "960b155c12a96dfbf16c149e2ade4d5fc44bd789211f4bf2e0f7bd5771612b7d",
+      "size": 46886,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/resourcepacks/PBM_Server_Pack.zip"
+    },
+    {
+      "path": "launcher/launch.ps1",
+      "mode": "sync",
+      "sha256": "3115af36bf1f1f47789b0033dd908a70e1559033e5b9c2721349f6727c98b4cb",
+      "size": 12924,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/launcher/launch.ps1"
     }
   ]
 }
