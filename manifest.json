@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-12T02:49:04Z",
+  "generatedAt": "2026-11-12T15:03:04Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -256,7 +256,7 @@
     {
       "path": ".minecraft/config/fabric/indigo-renderer.properties",
       "mode": "add-if-missing",
-      "sha256": "4a338a4f7eab43c532952efc8de30c293998cb0002365d6736b049314907b824",
+      "sha256": "67065fe9931ab7a99a710a8ea93d0bc0c8002b0c574a7f0d645de6a9f3639523",
       "size": 290,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/fabric/indigo-renderer.properties"
     },
@@ -396,15 +396,15 @@
     {
       "path": ".minecraft/config/jade/plugins.json",
       "mode": "add-if-missing",
-      "sha256": "759efb63939edfde2ea0fc8eef22467614968a0c13024c1e048b8bf19fcbf921",
-      "size": 2097,
+      "sha256": "1ad8e79fafa169bc19b6626152226a91b57e7bb3c926631ed12d635ae45fe7af",
+      "size": 2153,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jade/plugins.json"
     },
     {
       "path": ".minecraft/config/jade/sort-order.json",
       "mode": "add-if-missing",
-      "sha256": "87d1ebeb2e64edb36aaa2d331c0b7d7a6a90ce3210688428eb7a4e6ecbe5f7ed",
-      "size": 2230,
+      "sha256": "b733992d1ee31853b15c86227ed183f8542ee26951ee1df1e4eb42acd7abbe26",
+      "size": 2273,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jade/sort-order.json"
     },
     {
@@ -452,8 +452,8 @@
     {
       "path": ".minecraft/config/jei/client/ingredient-list-mod-sort-order.ini",
       "mode": "add-if-missing",
-      "sha256": "e0a8fe1f72007914ca734085a6bb48d16c8b201dfff1244878f00dc75f5328fa",
-      "size": 478,
+      "sha256": "c70cfed983a4ddf6de14c126a3f09c57805094b37e78539c17d9ae3cf66e922f",
+      "size": 489,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/client/ingredient-list-mod-sort-order.ini"
     },
     {
@@ -466,22 +466,22 @@
     {
       "path": ".minecraft/config/jei/client/recipe-category-sort-order.ini",
       "mode": "add-if-missing",
-      "sha256": "0b1242d4922fcd117a45b8fa1b26fbf9b2d94c57abb6dd0c4220b06c6b2e6f99",
-      "size": 1003,
+      "sha256": "40bf0e8b32eea61dedea10e5fedcd608add59e3fbc6863bf0622b2c7fc56a0f0",
+      "size": 1436,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/client/recipe-category-sort-order.ini"
     },
     {
       "path": ".minecraft/config/jei/world/server/Servidor de Minecraft (sv24_minehost_com_ar 25425)/bookmarks.json",
       "mode": "add-if-missing",
-      "sha256": "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648",
-      "size": 19,
+      "sha256": "f307083bc54815a28c68a771da6680e5986158469bab5641ef797378462205cc",
+      "size": 324,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/world/server/Servidor%20de%20Minecraft%20%28sv24_minehost_com_ar%2025425%29/bookmarks.json"
     },
     {
       "path": ".minecraft/config/jei/world/server/Servidor de Minecraft (sv24_minehost_com_ar 25425)/lookupHistory.json",
       "mode": "add-if-missing",
-      "sha256": "2b2c835f5e753207d6af7cdfcc18f1aeb403d18967d3de5a921690c522b7ae90",
-      "size": 10746,
+      "sha256": "8591dc2a46e3c3385f126d0ce0930446d359b0e952dc64bf5ee54827d092e01e",
+      "size": 10676,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/world/server/Servidor%20de%20Minecraft%20%28sv24_minehost_com_ar%2025425%29/lookupHistory.json"
     },
     {
@@ -585,14 +585,14 @@
     {
       "path": ".minecraft/config/naturalist-client.properties",
       "mode": "add-if-missing",
-      "sha256": "3d3277aa9a31af082b66ad7e74e830977451f3251fa52572d075873fede2af56",
+      "sha256": "e34d7aa8e9dd1edf9d1e8c915a8e047dd50a901d18e21f921f3176c5acee1a06",
       "size": 82,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-client.properties"
     },
     {
       "path": ".minecraft/config/naturalist-server.properties",
       "mode": "add-if-missing",
-      "sha256": "b3ecfa78672a3e25f95d2705ea3841796580bb629957c71f79adf2c1e0100821",
+      "sha256": "9f679063af312aa86a8dd68f6a14ec8e33cd57eda39d6ffc6584104bb5a1d497",
       "size": 1306,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-server.properties"
     },
@@ -602,6 +602,27 @@
       "sha256": "f72dc2bce12a55066bd33e50c47b1ad33b1bdda65778cb5653d876e1fec3694d",
       "size": 3273,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/notenoughanimations.json"
+    },
+    {
+      "path": ".minecraft/config/oritech-client.toml",
+      "mode": "add-if-missing",
+      "sha256": "5301b6f30f1cb2e69ca11253e66ee3d3ff4bc4fb31642a7d352930ada0b21be0",
+      "size": 461,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/oritech-client.toml"
+    },
+    {
+      "path": ".minecraft/config/oritech-common.toml",
+      "mode": "add-if-missing",
+      "sha256": "6b331bcf4d21330a24fdfd9dbe33eb3102447a448f8602eff29737b9fc7989b8",
+      "size": 15654,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/oritech-common.toml"
+    },
+    {
+      "path": ".minecraft/config/oritech-startup.toml",
+      "mode": "add-if-missing",
+      "sha256": "357446c64ab4d702517f56058086ab7f4065efdf18d792d1da32ebca71eaaa82",
+      "size": 4267,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/oritech-startup.toml"
     },
     {
       "path": ".minecraft/config/particular.json5",
@@ -669,7 +690,7 @@
     {
       "path": ".minecraft/config/scalablelux.properties",
       "mode": "add-if-missing",
-      "sha256": "386d8707757b1007404c796f65bfcd9868f15b9464de82bec442b17a5adba417",
+      "sha256": "3d0847df63e18e7adbebca99943a2f1ad30bdeb2398beb8f3fed677e4cb521c2",
       "size": 84,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/scalablelux.properties"
     },
@@ -858,8 +879,8 @@
     {
       "path": ".minecraft/config/sound_physics_remastered/sound_rates.properties",
       "mode": "add-if-missing",
-      "sha256": "7fe990b5f491099af1d01cce1a02e7a0f6995ae5bc6541a78a4658da05db2fc0",
-      "size": 98212,
+      "sha256": "116809efa998e57901fbd8355003397d44c935431b240e0087115e380307519b",
+      "size": 98864,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/sound_physics_remastered/sound_rates.properties"
     },
     {
@@ -1428,6 +1449,13 @@
       "sha256": "33b2c6828579480bd778487bb1920d45284cffb3be6731fdee944ce9eebf135d",
       "size": 1262873,
       "url": "https://cdn.modrinth.com/data/eE2Db4YU/versions/4m0lwLNO/immersive_armors-1.7.6%2B1.21.1-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/indexer-fabric-1.21.1-1.0.7.1.jar",
+      "mode": "sync",
+      "sha256": "5b067d3af479fe098e49e630d43abf75b6b1ecc55e82f5c71343bc3c0aa65f83",
+      "size": 907212,
+      "url": "https://cdn.modrinth.com/data/9VJsIvie/versions/2Dl2ju1a/indexer-fabric-1.21.1-1.0.7.1.jar"
     },
     {
       "path": ".minecraft/mods/iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
