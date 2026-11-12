@@ -48,7 +48,7 @@ enable_block_entity_renderer_caching: true
 enable_entity_flag_caching: true
 # Whether we should avoid calling FOV calculations
 # if the FOV effect scale is zero.
-enable_remove_redundant_fov_calculations: true
+enable_remove_redundant_fov_calculations: false
 # Don't tick the tutorial if the game is not in demo mode.
 enable_remove_tutorial_if_not_demo: true
 

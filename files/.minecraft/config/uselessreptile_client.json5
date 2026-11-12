@@ -1,0 +1,22 @@
+{
+	// CAMERA SETTINGS
+	cameraDistanceOffset: 2.0,
+	cameraVerticalOffset: 0.0,
+	cameraHorizontalOffset: -1.5,
+	enableCameraOffset: true,
+	enableCrosshair: true,
+	autoThirdPerson: true,
+	// allows to fly up or down while riding dragon by changing camera's pitch
+	upDownCameraControl: false,
+	upDownCameraPitchThreshold: 30.0,
+	// DRAGON APPEARANCE
+	disableNamedEntityModels: false,
+	disableEmissiveTextures: false,
+	// displays area in which dragon can deal damage for melee attacks
+	attackBoxesInDebug: false,
+	// hides information in item tooltip about which dragons can wear specific items
+	hideEquipmentInfo: false,
+	// defines if passengers on dragons can be rendered 
+	// possible valuses: NONE, SELF, OTHERS, ALL
+	renderPassengers: "ALL"
+}

@@ -1,0 +1,75 @@
+{
+	// GLOBAL MULTIPLIERS
+	dragonGroundSpeedMultiplier: 1.0,
+	dragonFlyingSpeedMultiplier: 1.0,
+	// Base dragon attributes.
+	// Note that in vanilla game attribute values are limited by certain range (this can be changed by other mods):
+	// Damage: [0;2048]
+	// Knockback: [0;5]
+	// Health: [1;1024]
+	// Armor: [0;30]
+	// Armor toughness: [0;20]
+	// Ground, flying and vertical speed: [0;1024]
+	// Rotation speeds: [0;180]
+	// Attack cooldowns: [0;2048]
+	// Acceleration duration: [0;2048]
+	// Regeneration from food: [0;1024]
+	// Attack cooldowns and acceleration duration are measured in ticks, rotation speeds - in degrees. Movement speed is measured in corgi-sized meteors
+	// 
+	// SWAMP WYVERN ATTRIBUTES 
+	wyvernDamage: 6.0,
+	wyvernKnockback: 0.3,
+	wyvernHealth: 50.0,
+	wyvernArmor: 4.0,
+	wyvernArmorToughness: 2.0,
+	wyvernGroundSpeed: 0.2,
+	wyvernFlyingSpeed: 0.7,
+	wyvernBaseSecondaryAttackCooldown: 30,
+	wyvernBasePrimaryAttackCooldown: 80,
+	wyvernBaseAccelerationDuration: 400,
+	wyvernRotationSpeedGround: 8.0,
+	wyvernRotationSpeedAir: 4.0,
+	wyvernVerticalSpeed: 0.4,
+	wyvernRegenerationFromFood: 4.0,
+	// MOLECLAW ATTRIBUTES
+	moleclawDamage: 8.0,
+	moleclawKnockback: 0.5,
+	moleclawHealth: 80.0,
+	moleclawArmor: 8.0,
+	moleclawArmorToughness: 4.0,
+	moleclawGroundSpeed: 0.25,
+	moleclawBaseSecondaryAttackCooldown: 30,
+	moleclawBasePrimaryAttackCooldown: 60,
+	moleclawRotationSpeedGround: 6.0,
+	moleclawRegenerationFromFood: 2.0,
+	// RIVER PIKEHORN ATTRIBUTES
+	riverPikehornDamage: 3.0,
+	riverPikehornKnockback: 0.0,
+	riverPikehornHealth: 20.0,
+	riverPikehornArmor: 0.0,
+	riverPikehornArmorToughness: 0.0,
+	riverPikehornGroundSpeed: 0.2,
+	riverPikehornFlyingSpeed: 0.8,
+	riverPikehornBasePrimaryAttackCooldown: 20,
+	riverPikehornBaseAccelerationDuration: 200,
+	riverPikehornRotationSpeedGround: 10.0,
+	riverPikehornRotationSpeedAir: 16.0,
+	riverPikehornVerticalSpeed: 0.2,
+	riverPikehornRegenerationFromFood: 3.0,
+	// LIGHTNING CHASER ATTRIBUTES
+	lightningChaserDamage: 6.0,
+	lightningChaserKnockback: 0.3,
+	lightningChaserHealth: 70.0,
+	lightningChaserArmor: 6.0,
+	lightningChaserArmorToughness: 6.0,
+	lightningChaserGroundSpeed: 0.25,
+	lightningChaserFlyingSpeed: 0.9,
+	lightningChaserBaseSecondaryAttackCooldown: 30,
+	lightningChaserBasePrimaryAttackCooldown: 100,
+	lightningChaserBaseSpecialAttackCooldown: 300,
+	lightningChaserBaseAccelerationDuration: 800,
+	lightningChaserRotationSpeedGround: 9.0,
+	lightningChaserRotationSpeedAir: 7.0,
+	lightningChaserVerticalSpeed: 0.3,
+	lightningChaserRegenerationFromFood: 4.0
+}

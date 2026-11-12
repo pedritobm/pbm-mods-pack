@@ -1,0 +1,18 @@
+{
+  "general": {
+    "merge_dynamic_resource_packs": true,
+    "lazy_map_upload": true,
+    "maps_mipmap": 3,
+    "consistent_entity_renderer_shading": "NO_GUI",
+    "debug_renderers": false,
+    "tags_tooltips": "OFF"
+  },
+  "config_screen": {
+    "custom_config_screen": true,
+    "show_all_mod_configs": false,
+    "convert_foreign_configs": "GENERIC_ONLY",
+    "config_item_carousel": true,
+    "favourite_mods": [],
+    "mod_list_descending": false
+  }
+}

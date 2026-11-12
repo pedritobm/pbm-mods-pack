@@ -1,0 +1,426 @@
+{
+  "ember_tortoise_spawn_enabled": {
+    "comment": "Enable ember_tortoise spawning?",
+    "value": true
+  },
+  "dragonfly_max_group_size": {
+    "comment": "Maximum group size for dragonfly.",
+    "value": 4
+  },
+  "kiwi_spawn_weight": {
+    "comment": "Spawn weight for kiwi.",
+    "value": 30
+  },
+  "echofin_max_group_size": {
+    "comment": "Maximum group size for echofin.",
+    "value": 3
+  },
+  "jellyfish_spawn_weight": {
+    "comment": "Spawn weight for jellyfish.",
+    "value": 6
+  },
+  "koi_spawn_weight": {
+    "comment": "Spawn weight for koi.",
+    "value": 20
+  },
+  "mossbloom_min_group_size": {
+    "comment": "Minimum group size for mossbloom.",
+    "value": 1
+  },
+  "kiwi_max_group_size": {
+    "comment": "Maximum group size for kiwi.",
+    "value": 3
+  },
+  "dragonfly_spawn_weight": {
+    "comment": "Spawn weight for dragonfly.",
+    "value": 20
+  },
+  "kiwi_spawn_enabled": {
+    "comment": "Enable kiwi spawning?",
+    "value": true
+  },
+  "manta_ray_max_group_size": {
+    "comment": "Maximum group size for manta_ray.",
+    "value": 3
+  },
+  "ember_tortoise_max_group_size": {
+    "comment": "Maximum group size for ember_tortoise.",
+    "value": 2
+  },
+  "chorus_beetle_max_group_size": {
+    "comment": "Maximum group size for chorus_beetle.",
+    "value": 2
+  },
+  "potion_wasp_min_group_size": {
+    "comment": "Minimum group size for potion_wasp.",
+    "value": 1
+  },
+  "warped_newt_max_group_size": {
+    "comment": "Maximum group size for warped_newt.",
+    "value": 3
+  },
+  "butterfly_spawn_enabled": {
+    "comment": "Enable butterfly spawning?",
+    "value": true
+  },
+  "echofin_spawn_enabled": {
+    "comment": "Enable echofin spawning?",
+    "value": true
+  },
+  "woodpecker_min_group_size": {
+    "comment": "Minimum group size for woodpecker.",
+    "value": 1
+  },
+  "capybara_max_group_size": {
+    "comment": "Maximum group size for capybara.",
+    "value": 5
+  },
+  "stoat_max_group_size": {
+    "comment": "Maximum group size for stoat.",
+    "value": 3
+  },
+  "chorus_beetle_spawn_enabled": {
+    "comment": "Enable chorus_beetle spawning?",
+    "value": false
+  },
+  "kiwi_min_group_size": {
+    "comment": "Minimum group size for kiwi.",
+    "value": 2
+  },
+  "dragonfly_min_group_size": {
+    "comment": "Minimum group size for dragonfly.",
+    "value": 2
+  },
+  "coati_max_group_size": {
+    "comment": "Maximum group size for coati.",
+    "value": 4
+  },
+  "stoat_spawn_enabled": {
+    "comment": "Enable stoat spawning?",
+    "value": true
+  },
+  "river_turtle_spawn_enabled": {
+    "comment": "Enable river_turtle spawning?",
+    "value": true
+  },
+  "mossbloom_spawn_enabled": {
+    "comment": "Enable mossbloom spawning?",
+    "value": true
+  },
+  "manta_ray_min_group_size": {
+    "comment": "Minimum group size for manta_ray.",
+    "value": 1
+  },
+  "stoat_min_group_size": {
+    "comment": "Minimum group size for stoat.",
+    "value": 2
+  },
+  "chameleon_min_group_size": {
+    "comment": "Minimum group size for chameleon.",
+    "value": 1
+  },
+  "do_trinkets_elytra_flight": {
+    "comment": "Will the Elytra and its variants work while worn in the cape slot provided by Trinkets?",
+    "value": true
+  },
+  "seahorse_spawn_enabled": {
+    "comment": "Enable seahorse spawning?",
+    "value": true
+  },
+  "woodpecker_spawn_weight": {
+    "comment": "Spawn weight for woodpecker.",
+    "value": 10
+  },
+  "chorus_beetle_spawn_weight": {
+    "comment": "Spawn weight for chorus_beetle.",
+    "value": 10
+  },
+  "ember_tortoise_min_group_size": {
+    "comment": "Minimum group size for ember_tortoise.",
+    "value": 1
+  },
+  "potion_wasp_spawn_weight": {
+    "comment": "Spawn weight for potion_wasp.",
+    "value": 20
+  },
+  "crocodile_spawn_weight": {
+    "comment": "Spawn weight for crocodile.",
+    "value": 10
+  },
+  "echofin_min_group_size": {
+    "comment": "Minimum group size for echofin.",
+    "value": 1
+  },
+  "mossbloom_max_group_size": {
+    "comment": "Maximum group size for mossbloom.",
+    "value": 2
+  },
+  "seahorse_spawn_weight": {
+    "comment": "Spawn weight for seahorse.",
+    "value": 20
+  },
+  "arrowfish_spawn_enabled": {
+    "comment": "Enable arrowfish spawning?",
+    "value": true
+  },
+  "red_panda_spawn_enabled": {
+    "comment": "Enable red_panda spawning?",
+    "value": true
+  },
+  "crimson_newt_max_group_size": {
+    "comment": "Maximum group size for crimson_newt.",
+    "value": 3
+  },
+  "seahorse_max_group_size": {
+    "comment": "Maximum group size for seahorse.",
+    "value": 7
+  },
+  "red_panda_max_group_size": {
+    "comment": "Maximum group size for red_panda.",
+    "value": 3
+  },
+  "booplet_spawn_weight": {
+    "comment": "Spawn weight for booplet.",
+    "value": 20
+  },
+  "emperor_penguin_spawn_weight": {
+    "comment": "Spawn weight for emperor_penguin.",
+    "value": 10
+  },
+  "butterfly_spawn_weight": {
+    "comment": "Spawn weight for butterfly.",
+    "value": 20
+  },
+  "crocodile_min_group_size": {
+    "comment": "Minimum group size for crocodile.",
+    "value": 1
+  },
+  "booplet_max_group_size": {
+    "comment": "Maximum group size for booplet.",
+    "value": 7
+  },
+  "koi_min_group_size": {
+    "comment": "Minimum group size for koi.",
+    "value": 4
+  },
+  "warped_newt_spawn_enabled": {
+    "comment": "Enable warped_newt spawning?",
+    "value": true
+  },
+  "red_panda_spawn_weight": {
+    "comment": "Spawn weight for red_panda.",
+    "value": 20
+  },
+  "emperor_penguin_spawn_enabled": {
+    "comment": "Enable emperor_penguin spawning?",
+    "value": true
+  },
+  "butterfly_max_group_size": {
+    "comment": "Maximum group size for butterfly.",
+    "value": 6
+  },
+  "beaver_spawn_weight": {
+    "comment": "Spawn weight for beaver.",
+    "value": 10
+  },
+  "arrowfish_spawn_weight": {
+    "comment": "Spawn weight for arrowfish.",
+    "value": 1
+  },
+  "beaver_min_group_size": {
+    "comment": "Minimum group size for beaver.",
+    "value": 2
+  },
+  "capybara_spawn_weight": {
+    "comment": "Spawn weight for capybara.",
+    "value": 10
+  },
+  "emperor_penguin_max_group_size": {
+    "comment": "Maximum group size for emperor_penguin.",
+    "value": 4
+  },
+  "crimson_newt_min_group_size": {
+    "comment": "Minimum group size for crimson_newt.",
+    "value": 2
+  },
+  "mossbloom_spawn_weight": {
+    "comment": "Spawn weight for mossbloom.",
+    "value": 30
+  },
+  "potion_wasp_spawn_enabled": {
+    "comment": "Enable potion_wasp spawning?",
+    "value": true
+  },
+  "seahorse_min_group_size": {
+    "comment": "Minimum group size for seahorse.",
+    "value": 4
+  },
+  "beaver_spawn_enabled": {
+    "comment": "Enable beaver spawning?",
+    "value": true
+  },
+  "warped_newt_spawn_weight": {
+    "comment": "Spawn weight for warped_newt.",
+    "value": 60
+  },
+  "arrowfish_min_group_size": {
+    "comment": "Minimum group size for arrowfish.",
+    "value": 1
+  },
+  "jellyfish_max_group_size": {
+    "comment": "Maximum group size for jellyfish.",
+    "value": 9
+  },
+  "echofin_spawn_weight": {
+    "comment": "Spawn weight for echofin.",
+    "value": 30
+  },
+  "manta_ray_spawn_weight": {
+    "comment": "Spawn weight for manta_ray.",
+    "value": 20
+  },
+  "chameleon_spawn_enabled": {
+    "comment": "Enable chameleon spawning?",
+    "value": true
+  },
+  "crimson_newt_spawn_enabled": {
+    "comment": "Enable crimson_newt spawning?",
+    "value": true
+  },
+  "koi_spawn_enabled": {
+    "comment": "Enable koi spawning?",
+    "value": true
+  },
+  "river_turtle_max_group_size": {
+    "comment": "Maximum group size for river_turtle.",
+    "value": 3
+  },
+  "river_turtle_min_group_size": {
+    "comment": "Minimum group size for river_turtle.",
+    "value": 2
+  },
+  "arrowfish_max_group_size": {
+    "comment": "Maximum group size for arrowfish.",
+    "value": 2
+  },
+  "booplet_min_group_size": {
+    "comment": "Minimum group size for booplet.",
+    "value": 4
+  },
+  "chameleon_spawn_weight": {
+    "comment": "Spawn weight for chameleon.",
+    "value": 15
+  },
+  "do_curios_elytra_flight": {
+    "comment": "Will the Elytra and its variants work while worn in the back slot provided by Curios?",
+    "value": true
+  },
+  "coati_min_group_size": {
+    "comment": "Minimum group size for coati.",
+    "value": 2
+  },
+  "butterfly_min_group_size": {
+    "comment": "Minimum group size for butterfly.",
+    "value": 3
+  },
+  "chorus_beetle_min_group_size": {
+    "comment": "Minimum group size for chorus_beetle.",
+    "value": 1
+  },
+  "ember_tortoise_spawn_weight": {
+    "comment": "Spawn weight for ember_tortoise.",
+    "value": 60
+  },
+  "dragonfly_spawn_enabled": {
+    "comment": "Enable dragonfly spawning?",
+    "value": true
+  },
+  "emperor_penguin_min_group_size": {
+    "comment": "Minimum group size for emperor_penguin.",
+    "value": 2
+  },
+  "capybara_min_group_size": {
+    "comment": "Minimum group size for capybara.",
+    "value": 3
+  },
+  "woodpecker_max_group_size": {
+    "comment": "Maximum group size for woodpecker.",
+    "value": 2
+  },
+  "beaver_max_group_size": {
+    "comment": "Maximum group size for beaver.",
+    "value": 3
+  },
+  "capybara_spawn_enabled": {
+    "comment": "Enable capybara spawning?",
+    "value": true
+  },
+  "warped_newt_min_group_size": {
+    "comment": "Minimum group size for warped_newt.",
+    "value": 2
+  },
+  "stoat_spawn_weight": {
+    "comment": "Spawn weight for stoat.",
+    "value": 25
+  },
+  "jellyfish_min_group_size": {
+    "comment": "Minimum group size for jellyfish.",
+    "value": 5
+  },
+  "coati_spawn_enabled": {
+    "comment": "Enable coati spawning?",
+    "value": true
+  },
+  "booplet_spawn_enabled": {
+    "comment": "Enable booplet spawning?",
+    "value": true
+  },
+  "woodpecker_spawn_enabled": {
+    "comment": "Enable woodpecker spawning?",
+    "value": false
+  },
+  "coati_spawn_weight": {
+    "comment": "Spawn weight for coati.",
+    "value": 20
+  },
+  "crimson_newt_spawn_weight": {
+    "comment": "Spawn weight for crimson_newt.",
+    "value": 60
+  },
+  "manta_ray_spawn_enabled": {
+    "comment": "Enable manta_ray spawning?",
+    "value": true
+  },
+  "potion_wasp_max_group_size": {
+    "comment": "Maximum group size for potion_wasp.",
+    "value": 2
+  },
+  "river_turtle_spawn_weight": {
+    "comment": "Spawn weight for river_turtle.",
+    "value": 20
+  },
+  "red_panda_min_group_size": {
+    "comment": "Minimum group size for red_panda.",
+    "value": 2
+  },
+  "chameleon_max_group_size": {
+    "comment": "Maximum group size for chameleon.",
+    "value": 2
+  },
+  "crocodile_spawn_enabled": {
+    "comment": "Enable crocodile spawning?",
+    "value": true
+  },
+  "jellyfish_spawn_enabled": {
+    "comment": "Enable jellyfish spawning?",
+    "value": true
+  },
+  "koi_max_group_size": {
+    "comment": "Maximum group size for koi.",
+    "value": 7
+  },
+  "crocodile_max_group_size": {
+    "comment": "Maximum group size for crocodile.",
+    "value": 2
+  }
+}

@@ -1,8 +1,8 @@
 {
   "config_version": 4,
-  "loadbuiltin": true,
+  "loadbuiltin": false,
   "quark": false,
-  "dark": false,
+  "dark": true,
   "oldChooseWheel": false,
   "perspective": true,
   "default3rdPersonFront": false,
@@ -26,13 +26,10 @@
   "hideWarning": false,
   "fastmenu": {
     "0": {
-      "0": "f9f6669d-f1b3-4170-8bc5-475a9a600439",
-      "1": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a",
-      "3": "a2969c42-520f-4c5c-a024-a7d0a2b7b4d1",
-      "4": "96506a5e-a69c-4a18-9add-d43dfd272fa6",
-      "5": "3045b335-12ca-4ddb-aca5-0aef450a5e4c",
-      "6": "931b2bda-a25e-4e55-957a-88c46f5e9a7b",
-      "7": "33b912f8-0aa0-45e6-a2d4-9b5677e6f35c"
+      "2": "2dd5d307-0000-0000-0000-000000000000",
+      "4": "0003da9d-3776-5cfe-0007-c3effbc01158",
+      "5": "7146ae20-0520-415e-beb4-9379f848f590",
+      "6": "0003b154-2496-01de-0007-7bc8c5a157f8"
     }
   },
   "keys": {}

@@ -1,0 +1,35 @@
+{
+	// IN WORLD SPAWN 
+	// Natural spawn means dragon can spawn randomly in same manner as any other normal mob if conditions are met
+	naturalWyvernSpawn: true,
+	naturalMoleclawSpawn: true,
+	naturalRiverPikehornSpawn: true,
+	// Note: Lightning Chaser doesn't have variants for natural spawn defined and thus won't appear by default.
+	// You have to add variant spawns manually via datapack if you want it to spawn naturally
+	naturalLightningChaserSpawn: false,
+	// Defines a chance of Lightning Chaser spawning near player during thunderstorms each 30 seconds (1200 ticks)
+	lightningChaserThunderstormSpawnChance: 10,
+	// Amount of time (in ticks) that must pass before Lightning Chaser can attempt to spawn near the same player
+	lightningChaserThunderstormSpawnTimerCooldown: 24000,
+	// SPAWN GROUP CAPACITIES
+	dragonSpawnGroupCapacity: 2,
+	smallDragonSpawnGroupCapacity: 12,
+	undergroundDragonSpawnGroupCapacity: 6,
+	// GROUP SIZES
+	wyvernMinGroupSize: 1,
+	wyvernMaxGroupSize: 1,
+	moleclawMinGroupSize: 1,
+	moleclawMaxGroupSize: 1,
+	riverPikehornMinGroupSize: 1,
+	riverPikehornMaxGroupSize: 3,
+	lightningChaserMinGroupSize: 1,
+	lightningChaserMaxGroupSize: 1,
+	// BEHAVIOUR 
+	// Possible values: ALL, TAMED, DISABLED
+	moleclawGriefing: "ALL",
+	lightningChaserGriefing: "ALL",
+	blockDropChance: 100,
+	// allows dragon to teleport to owner whenever it tries to follow
+	allowDragonTeleport: true,
+	dragonMadness: false
+}

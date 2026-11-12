@@ -1,0 +1,9 @@
+{
+  "general": {
+    "multi_threaded_generation": true,
+    "extra_debug": false,
+    "extra_children_debug": false,
+    "faster_cache_search": true,
+    "global_datapacks_folder": "moonlight-global-datapacks"
+  }
+}
