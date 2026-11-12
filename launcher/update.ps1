@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$PackRoot = (Split-Path $PSScriptRoot -Parent),
     [switch]$Quiet,
     [switch]$Force
@@ -33,7 +33,7 @@ function Write-Status([string]$msg, [string]$color = "Cyan") {
 }
 
 function Get-Sha256([string]$path) {
-    return (Get-FileHash -Algorithm SHA256 -Path $path).Hash.ToLower()
+    return (Get-FileHash -Algorithm SHA256 -LiteralPath $path).Hash.ToLower()
 }
 
 function Test-HostAllowed([string]$url) {
@@ -128,7 +128,7 @@ try {
             continue
         }
 
-        $exists = Test-Path $dest
+        $exists = Test-Path -LiteralPath $dest
         if ($f.mode -eq "add-if-missing" -and $exists) { continue }
         if ($exists) {
             if ((Get-Sha256 $dest) -eq ([string]$f.sha256).ToLower()) { continue }
@@ -161,9 +161,9 @@ try {
         if ($exists) {
             $bak = Join-Path $backupDir $relFs
             New-Item -ItemType Directory -Force -Path (Split-Path $bak -Parent) | Out-Null
-            Copy-Item $dest $bak -Force
+            Copy-Item -LiteralPath $dest -Destination $bak -Force
         }
-        Move-Item $tmp $dest -Force
+        Move-Item -LiteralPath $tmp -Destination $dest -Force
         $downloaded++
     }
 
@@ -182,11 +182,11 @@ try {
                     New-Item -ItemType Directory -Force -Path $removedDir | Out-Null
                     $target = Join-Path $removedDir $item.Name
                     $n = 1
-                    while (Test-Path $target) {
+                    while (Test-Path -LiteralPath $target) {
                         $target = Join-Path $removedDir ([IO.Path]::GetFileNameWithoutExtension($item.Name) + "_$n" + [IO.Path]::GetExtension($item.Name))
                         $n++
                     }
-                    Move-Item $item.FullName $target -Force
+                    Move-Item -LiteralPath $item.FullName -Destination $target -Force
                     Write-Log "Movido a cuarentena: $($item.Name)" "DarkYellow"
                 }
             }
@@ -216,3 +216,4 @@ try {
     if ($tmpRoot -and (Test-Path $tmpRoot)) { Remove-Item $tmpRoot -Recurse -Force -ErrorAction SilentlyContinue }
     Remove-Item $LockPath -Force -ErrorAction SilentlyContinue
 }
+

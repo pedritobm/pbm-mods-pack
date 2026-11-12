@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-12T16:40:00Z",
+  "generatedAt": "2026-11-12T16:44:26Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1584,6 +1584,13 @@
       "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/logical_zoom-0.0.26.jar",
+      "mode": "sync",
+      "sha256": "0ac07842dbfc188eb80b4a6c9c719fc3a565379c07a5cebd255fc71ae3ad100b",
+      "size": 118999,
+      "url": "https://cdn.modrinth.com/data/8bOImuGU/versions/8T4BLoiy/logical_zoom-0.0.26.jar"
+    },
+    {
       "path": ".minecraft/mods/malilib-fabric-1.21-0.21.10.jar",
       "mode": "sync",
       "sha256": "fed24701279ed7d55ea9e1bce9d4528e3f679ef9883c1ab7fb7a8c6a3fcd2915",
@@ -1897,13 +1904,6 @@
       "sha256": "6ab420b7d1326fc9851b96a8967504bd644da421ed6438ceb9a9d9c993a408b1",
       "size": 1131265,
       "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar"
-    },
-    {
-      "path": ".minecraft/mods/zoomx-1.21.1.jar",
-      "mode": "sync",
-      "sha256": "0877f79547d9dfa78630e9e4a553f1c7d73d570bc71f0f2cfcdb3d4de931933f",
-      "size": 19763,
-      "url": "https://cdn.modrinth.com/data/uagtqGzt/versions/keKNoAqb/zoomx-1.21.1.jar"
     },
     {
       "path": ".minecraft/resourcepacks/FreshAnimations.zip",
