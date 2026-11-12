@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-11T20:16:03Z",
+  "generatedAt": "2026-11-12T00:45:51Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1190,6 +1190,13 @@
       "sha256": "372886214cd261f6542f7c81bb4f6fba4c8139b8a9db68ee5885f7fc352135b2",
       "size": 2353010,
       "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/uANIaPO7/moonlight-1.21.1-3.8.3-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/naturalist-2.0.7-fabric-1.21.1.jar",
+      "mode": "sync",
+      "sha256": "fed1028027eb7335e52e9dc3e3805bc8eb7d02aae116d2464c27cb12479bc4fb",
+      "size": 11281261,
+      "url": "https://cdn.modrinth.com/data/F8BQNPWX/versions/VzAOvO8M/naturalist-2.0.7-fabric-1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/notenoughanimations-fabric-1.12.7-mc1.21.1.jar",
