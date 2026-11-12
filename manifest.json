@@ -1,13 +1,83 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-12T15:03:04Z",
+  "generatedAt": "2026-11-12T16:40:00Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
   "files": [
+    {
+      "path": ".minecraft/CustomSkinLoader/CustomSkinLoader.json",
+      "mode": "add-if-missing",
+      "sha256": "0f9350bd0afabbf2fbbe6703342f95b73c7626079d82f73a05f88edbf9d7d8a3",
+      "size": 608,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/CustomSkinLoader.json"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/capes/Marcocho.png",
+      "mode": "sync",
+      "sha256": "7706b5f5fc90329691e59277dcc66ba20572219fa8e5da472afd5235fad12cc8",
+      "size": 933,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/capes/Marcocho.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/capes/PedritoBM.png",
+      "mode": "sync",
+      "sha256": "953cac8b779fe41383e675ee2b86071a71658f2180f56fbce8aa315ea70e2ed6",
+      "size": 937,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/capes/PedritoBM.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/capes/d1sthym.png",
+      "mode": "sync",
+      "sha256": "e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980",
+      "size": 754,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/capes/d1sthym.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/Marcocho.png",
+      "mode": "sync",
+      "sha256": "36290043e2ea8ebf1d8a0c98d51b31fa4a89da44ad0745d29b4fc208ed35a8c3",
+      "size": 3288,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/Marcocho.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/PedritoBM.png",
+      "mode": "sync",
+      "sha256": "9fc2c91661556b994dcf44b74af9dcd3b258a5aecf7e2ae28fad4e49835eb249",
+      "size": 490,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/PedritoBM.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/LocalSkin/skins/d1sthym.png",
+      "mode": "sync",
+      "sha256": "e407363c4b1c83d47903b77ba689bf1f47a5658e988b6328a859693d446af22a",
+      "size": 4160,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/LocalSkin/skins/d1sthym.png"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/caches/078894070f015eaa7ba4239f7aa75482540b9d3a.json",
+      "mode": "add-if-missing",
+      "sha256": "e206f370bed8c60f9620c88cdac120f7765af5494b609b594b1610d68d470174",
+      "size": 122,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/caches/078894070f015eaa7ba4239f7aa75482540b9d3a.json"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/caches/a1f3bd5e82d4768e5a4fa4dc226b7af379987514.json",
+      "mode": "add-if-missing",
+      "sha256": "733112919c528036962471d3b3ebde83dd7ab8e5586c80cac8a97cafed431796",
+      "size": 99,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/caches/a1f3bd5e82d4768e5a4fa4dc226b7af379987514.json"
+    },
+    {
+      "path": ".minecraft/CustomSkinLoader/caches/cdb6dce6db41660c6d27134adecba40d5e575e0e.json",
+      "mode": "add-if-missing",
+      "sha256": "4b5bf4b9a517b8df1f97adaae6300bb2389967522e530a5a6a9a23aab97c0008",
+      "size": 102,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/CustomSkinLoader/caches/cdb6dce6db41660c6d27134adecba40d5e575e0e.json"
+    },
     {
       "path": ".minecraft/config/CoroUtil/General.toml",
       "mode": "add-if-missing",
@@ -256,7 +326,7 @@
     {
       "path": ".minecraft/config/fabric/indigo-renderer.properties",
       "mode": "add-if-missing",
-      "sha256": "67065fe9931ab7a99a710a8ea93d0bc0c8002b0c574a7f0d645de6a9f3639523",
+      "sha256": "46d1b7c4816dd06854c54223f2ad11cf1d7c5d23889cd78c7b18087c33df83eb",
       "size": 290,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/fabric/indigo-renderer.properties"
     },
@@ -452,8 +522,8 @@
     {
       "path": ".minecraft/config/jei/client/ingredient-list-mod-sort-order.ini",
       "mode": "add-if-missing",
-      "sha256": "c70cfed983a4ddf6de14c126a3f09c57805094b37e78539c17d9ae3cf66e922f",
-      "size": 489,
+      "sha256": "8828432b49887c5522c85d0bb9497d1859b66f7eb8c5ce5b30aa366c7e002958",
+      "size": 506,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/client/ingredient-list-mod-sort-order.ini"
     },
     {
@@ -480,8 +550,8 @@
     {
       "path": ".minecraft/config/jei/world/server/Servidor de Minecraft (sv24_minehost_com_ar 25425)/lookupHistory.json",
       "mode": "add-if-missing",
-      "sha256": "8591dc2a46e3c3385f126d0ce0930446d359b0e952dc64bf5ee54827d092e01e",
-      "size": 10676,
+      "sha256": "c4c00cfae627dd85a7efeb1de97bbf9c98e573abc6c832669a74d8723dc8f9b3",
+      "size": 10392,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/jei/world/server/Servidor%20de%20Minecraft%20%28sv24_minehost_com_ar%2025425%29/lookupHistory.json"
     },
     {
@@ -585,14 +655,14 @@
     {
       "path": ".minecraft/config/naturalist-client.properties",
       "mode": "add-if-missing",
-      "sha256": "e34d7aa8e9dd1edf9d1e8c915a8e047dd50a901d18e21f921f3176c5acee1a06",
+      "sha256": "f53f2b4382f51996fa43bd185d4e3f455a2072e486168e83e273bee1d8adc805",
       "size": 82,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-client.properties"
     },
     {
       "path": ".minecraft/config/naturalist-server.properties",
       "mode": "add-if-missing",
-      "sha256": "9f679063af312aa86a8dd68f6a14ec8e33cd57eda39d6ffc6584104bb5a1d497",
+      "sha256": "de3f123b2b684c3e8d6942c09d99849f07fcd989cefc83bf1fa6d35c2ca6f78a",
       "size": 1306,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-server.properties"
     },
@@ -690,7 +760,7 @@
     {
       "path": ".minecraft/config/scalablelux.properties",
       "mode": "add-if-missing",
-      "sha256": "3d0847df63e18e7adbebca99943a2f1ad30bdeb2398beb8f3fed677e4cb521c2",
+      "sha256": "544e56e7239a35d575c4434a75b751eb5b2e3d898f6ffc9593202b162338c4ca",
       "size": 84,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/scalablelux.properties"
     },

@@ -129,6 +129,26 @@ def main():
                 "url": f"{RAW_BASE}/files/{url_path('.minecraft/resourcepacks/' + name)}",
             })
 
+    # ---- skins de CustomSkinLoader (LocalSkin)
+    csl_src = os.path.join(mc, "CustomSkinLoader")
+    if os.path.isdir(csl_src):
+        for root, dirs, names in os.walk(csl_src):
+            for name in names:
+                if not name.endswith((".png", ".json")):
+                    continue
+                src = os.path.join(root, name)
+                rel = os.path.relpath(src, csl_src).replace("\\", "/")
+                dst = os.path.join(files_dir, ".minecraft", "CustomSkinLoader", rel)
+                os.makedirs(os.path.dirname(dst), exist_ok=True)
+                shutil.copy2(src, dst)
+                entries.append({
+                    "path": ".minecraft/CustomSkinLoader/" + rel,
+                    "mode": "sync" if rel.startswith("LocalSkin/") else "add-if-missing",
+                    "sha256": sha256(dst),
+                    "size": os.path.getsize(dst),
+                    "url": f"{RAW_BASE}/files/{url_path('.minecraft/CustomSkinLoader/' + rel)}",
+                })
+
     # ---- mods (sync)
     mods_src = os.path.join(mc, "mods")
     for name in sorted(os.listdir(mods_src)):
