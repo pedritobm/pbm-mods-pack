@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-13T20:48:27Z",
+  "generatedAt": "2026-11-13T20:54:20Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1241,6 +1241,13 @@
       "url": "https://cdn.modrinth.com/data/CFX9ftUJ/versions/sfkuLHyi/advancednetherite-fabric-2.3.1-1.21.1.jar"
     },
     {
+      "path": ".minecraft/mods/aircraft_cursor-1.0.0.jar",
+      "mode": "sync",
+      "sha256": "1aee5720d419a200481c9cc744458fdcd7e5bbec4c48938b16a34f02ff1480fa",
+      "size": 10062,
+      "url": "https://cdn.modrinth.com/data/WastiZUi/versions/2qLC0esy/aircraft_cursor-1.0.0.jar"
+    },
+    {
       "path": ".minecraft/mods/appleskin-fabric-mc1.21-3.0.6.jar",
       "mode": "sync",
       "sha256": "9a19cec1294b1bc708392a08e6926dcb85d7378ec5ad909a4b6fcb8bc3bfeaa2",
@@ -1260,6 +1267,13 @@
       "sha256": "e17aad84c690ac4e46300a4180b3ae4077ffa4f526dbc82d117afbbff4ee83e4",
       "size": 88425,
       "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar"
+    },
+    {
+      "path": ".minecraft/mods/aviator_dreams_reloaded-fabric-1.2.8+1.21.1.jar",
+      "mode": "sync",
+      "sha256": "f82c911dc1ee11dd6bbef2b68b49009286192f81ac4a175a86905b29a143b24c",
+      "size": 13420259,
+      "url": "https://cdn.modrinth.com/data/AOYDdieB/versions/mNCljyaC/aviator_dreams_reloaded-fabric-1.2.8%2B1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/balm-fabric-1.21.1-21.0.67.jar",
@@ -1309,6 +1323,13 @@
       "sha256": "8fe9f00c3af0703266ee843e9a8e6dc23972ed4c2bfc5a0f5cb1fef6ab4bd280",
       "size": 381715,
       "url": "https://cdn.modrinth.com/data/IwCkru1D/versions/ulZDYpW0/cicada-lib-0.14.3%2B1.21-1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/civilian_aviation-1.0.3-1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "6916fc9d8d48bfcc45c15a863eec7d91ef76b0d7bfde0d3e49df5982a8f64726",
+      "size": 31019598,
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/2KiD6uGq/civilian_aviation-1.0.3-1.21.1-fabric.jar"
     },
     {
       "path": ".minecraft/mods/cloth-config-15.0.140-fabric.jar",
@@ -1372,6 +1393,13 @@
       "sha256": "ce0e586ab1d4af204afd52522bb00c4585952c11c2637d30d02ca0423edca8a4",
       "size": 478842,
       "url": "https://cdn.modrinth.com/data/6FtRfnLg/versions/vBXl66wc/do_a_barrel_roll-fabric-3.7.3%2B1.21.jar"
+    },
+    {
+      "path": ".minecraft/mods/drones-fabric-1.21.1-1.3.2.jar",
+      "mode": "sync",
+      "sha256": "ff03ec6142f0d2a2f41632318726e644020f4e0b3c05b1e367c0ed8ac5e72c5f",
+      "size": 668621,
+      "url": "https://cdn.modrinth.com/data/qJXeXOKx/versions/zziQy1UF/drones-fabric-1.21.1-1.3.2.jar"
     },
     {
       "path": ".minecraft/mods/dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
@@ -1521,6 +1549,20 @@
       "url": "https://cdn.modrinth.com/data/yn9u3ypm/versions/Fg64B87Y/graves-3.4.4%2B1.21.jar"
     },
     {
+      "path": ".minecraft/mods/ia_steampunked-1.0.0-1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "dbd2869ee4d979a23251c326d1dd16b2e2b44bd698b72300921d273133671653",
+      "size": 4813143,
+      "url": "https://cdn.modrinth.com/data/xFlTbWop/versions/iwgoNzBY/ia_steampunked-1.0.0-1.21.1-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/iac-structures-1.0.1.jar",
+      "mode": "sync",
+      "sha256": "59ccabe70c9a57ba4f3d10a0f02b334ea5d102121392859d2f167a246a6d7b84",
+      "size": 68685,
+      "url": "https://cdn.modrinth.com/data/jpKFb7MO/versions/iEAiSOYT/iac-structures-1.0.1.jar"
+    },
+    {
       "path": ".minecraft/mods/immersive_aircraft-fabric-1.7.0+1.21.1.jar",
       "mode": "sync",
       "sha256": "563801755e9d1aa8792e2b62bf53cb5a14c8a85f2891075ddc8a40485ab6c6f6",
@@ -1533,6 +1575,13 @@
       "sha256": "33b2c6828579480bd778487bb1920d45284cffb3be6731fdee944ce9eebf135d",
       "size": 1262873,
       "url": "https://cdn.modrinth.com/data/eE2Db4YU/versions/4m0lwLNO/immersive_armors-1.7.6%2B1.21.1-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/immersive_machinery-0.2.3+1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "66541bfb6e44a448778919941e41303ac15bb3336dfc4ed1faff5574e6282135",
+      "size": 900120,
+      "url": "https://cdn.modrinth.com/data/kGP3J2TW/versions/AEiBV20N/immersive_machinery-0.2.3%2B1.21.1-fabric.jar"
     },
     {
       "path": ".minecraft/mods/indexer-fabric-1.21.1-1.0.7.1.jar",
@@ -1612,6 +1661,13 @@
       "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/C99LEy6r/malilib-fabric-1.21-0.21.10.jar"
     },
     {
+      "path": ".minecraft/mods/man_of_many_planes-0.2.3+1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "56a38aafb3fe33bd48a5c25c70fa8487dfcf1eff9fb7343a3f55baff146096c8",
+      "size": 517668,
+      "url": "https://cdn.modrinth.com/data/9qdTHi0q/versions/PV6l5z4Y/man_of_many_planes-0.2.3%2B1.21.1-fabric.jar"
+    },
+    {
       "path": ".minecraft/mods/modernfix-fabric-5.25.1+mc1.21.1.jar",
       "mode": "sync",
       "sha256": "3ce5a9ce75066961b7fa5382692bb1387cc3536cc984b064ab7d70b97f3c674c",
@@ -1631,6 +1687,13 @@
       "sha256": "372886214cd261f6542f7c81bb4f6fba4c8139b8a9db68ee5885f7fc352135b2",
       "size": 2353010,
       "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/uANIaPO7/moonlight-1.21.1-3.8.3-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/more_engines-fabric-3.0.2.jar",
+      "mode": "sync",
+      "sha256": "2092e3f0b53be93a6dfcb8fda0f1dce1dfc83b559764c5738401b7652ef17e95",
+      "size": 577218,
+      "url": "https://cdn.modrinth.com/data/kNsl999k/versions/STGsRaxa/more_engines-fabric-3.0.2.jar"
     },
     {
       "path": ".minecraft/mods/naturalist-2.0.7-fabric-1.21.1.jar",
@@ -1808,6 +1871,13 @@
       "url": "https://cdn.modrinth.com/data/3iFwlaWN/versions/K50z5Rdn/smooththirdpersoncamera-mc1.21.1-fabric-2.0.0.jar"
     },
     {
+      "path": ".minecraft/mods/snassets_particles-1.0.1.jar",
+      "mode": "sync",
+      "sha256": "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca",
+      "size": 575663,
+      "url": "https://cdn.modrinth.com/data/3w6lq0GG/versions/LyEE9aSZ/snassets_particles-1.0.1.jar"
+    },
+    {
       "path": ".minecraft/mods/sodium-extra-fabric-0.9.5+mc1.21.1.jar",
       "mode": "sync",
       "sha256": "ca02f490cf28be9077078f5145d39f1415d2e6ba67acc6c037ad49009d10a7b0",
@@ -1878,6 +1948,13 @@
       "url": "https://cdn.modrinth.com/data/rlloIFEV/versions/q2nboqiM/travelersbackpack-fabric-1.21.1-10.1.40.jar"
     },
     {
+      "path": ".minecraft/mods/trinkets-3.10.0.jar",
+      "mode": "sync",
+      "sha256": "349fd2aa8930b232050ee5304db55e4ef738b017971afe7c84acd589a95fda2f",
+      "size": 272944,
+      "url": "https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar"
+    },
+    {
       "path": ".minecraft/mods/useless-reptile-0.9.13-1.21.1.jar",
       "mode": "sync",
       "sha256": "33b461e9908eefa6df54d97640095b53939e5625ec885f1a1eba971ddd74626f",
@@ -1904,6 +1981,13 @@
       "sha256": "2ba269063a5655eb8b32909c0ea6d486f61afcae202aa236fe3a6fefc57d43f9",
       "size": 268435,
       "url": "https://cdn.modrinth.com/data/dlNu0RQY/versions/WuY7eJX9/wakes-0.4.1%2B1.21.1.jar"
+    },
+    {
+      "path": ".minecraft/mods/warfare_wings-1.1.4-1.21.1-fabric.jar",
+      "mode": "sync",
+      "sha256": "211fb9b40266fa71bfc54d3a4bdc18b9b250e75fc30c3bd8841bc40089c893b7",
+      "size": 29555605,
+      "url": "https://cdn.modrinth.com/data/OsWThBSc/versions/at2NITmT/warfare_wings-1.1.4-1.21.1-fabric.jar"
     },
     {
       "path": ".minecraft/mods/watut-fabric-1.21.0-1.2.7.jar",
