@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-13T20:54:20Z",
+  "generatedAt": "2026-11-13T21:16:41Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -247,6 +247,13 @@
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/eg_particle_interactions_config.json"
     },
     {
+      "path": ".minecraft/config/emi.css",
+      "mode": "add-if-missing",
+      "sha256": "1b149cd175b2bd85417ae3bf162c4f5169505129c4a811387c4c02ae90bec4cb",
+      "size": 10183,
+      "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/emi.css"
+    },
+    {
       "path": ".minecraft/config/emotecraft.json",
       "mode": "add-if-missing",
       "sha256": "8f709145b69d05dbf3aa4e8051e9e55050fba6a81bdc4d95c4d20a45d3204523",
@@ -326,7 +333,7 @@
     {
       "path": ".minecraft/config/fabric/indigo-renderer.properties",
       "mode": "add-if-missing",
-      "sha256": "cf8db5938fa7189cf0fb2da61578453601a5d21e2189fd814a935c15f4d4739d",
+      "sha256": "e114b297218d9c7f13095b3fea5948eb2d00b41d01bab5234e24fc9b4658ea5c",
       "size": 290,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/fabric/indigo-renderer.properties"
     },
@@ -655,14 +662,14 @@
     {
       "path": ".minecraft/config/naturalist-client.properties",
       "mode": "add-if-missing",
-      "sha256": "a10a3a00a5e060445145e838e0e2165bbc63a8c029c48f9ca7cd223ef39cbfe6",
+      "sha256": "360dea971e204c680140012a63e43e4e199009b0af17b627a256f63d75b9ba97",
       "size": 82,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-client.properties"
     },
     {
       "path": ".minecraft/config/naturalist-server.properties",
       "mode": "add-if-missing",
-      "sha256": "c9a9c595c679bca153a737985dfa47f115ddeeac233cbafed403d95e8e030264",
+      "sha256": "0583e27669e07af37a0e7ca58d1eceff82b56ebd41e8bb928fc5be27e5daf198",
       "size": 1306,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/naturalist-server.properties"
     },
@@ -760,7 +767,7 @@
     {
       "path": ".minecraft/config/scalablelux.properties",
       "mode": "add-if-missing",
-      "sha256": "a3e91a573adbdc13e0de83398dc965a75afa94dd95044fbc0e47e2c6f89f8f60",
+      "sha256": "80257e64c610d59b4a4a887d1afd922dcfd863cf271ff61331d4aa78a47689aa",
       "size": 84,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/scalablelux.properties"
     },
@@ -949,8 +956,8 @@
     {
       "path": ".minecraft/config/sound_physics_remastered/sound_rates.properties",
       "mode": "add-if-missing",
-      "sha256": "116809efa998e57901fbd8355003397d44c935431b240e0087115e380307519b",
-      "size": 98864,
+      "sha256": "ff7cd37d72151191e71177bba22d90ae342c0aa10da49540dcfa214c103b8b9a",
+      "size": 106865,
       "url": "https://raw.githubusercontent.com/pedritobm/pbm-mods-pack/main/files/.minecraft/config/sound_physics_remastered/sound_rates.properties"
     },
     {
@@ -1190,6 +1197,13 @@
       "sha256": "fb834cc77804a6f509690c54b4af56305ce7a7f3171f8616310710f0af1f673a",
       "size": 740746,
       "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/adpNvTZS/Jade-1.21.1-Fabric-15.10.6.jar"
+    },
+    {
+      "path": ".minecraft/mods/KeepTheResourcePack-1.20.3-1.0.jar",
+      "mode": "sync",
+      "sha256": "7c19e2f4ed63a41ce49b9f2bc47cb762b5dae16dcbe1f113fc206f3514b9b65b",
+      "size": 16368,
+      "url": "https://cdn.modrinth.com/data/rsRuYhVp/versions/pXMx4wHc/KeepTheResourcePack-1.20.3-1.0.jar"
     },
     {
       "path": ".minecraft/mods/OritechBlackHoleDislocator-Fabric-1.21.1-0.0.2.jar",
@@ -1505,6 +1519,13 @@
       "sha256": "72457e2d58986ffc9bac52f86ac493625952f6bac082db3924a77fda01cfa899",
       "size": 71136,
       "url": "https://cdn.modrinth.com/data/xZQOoOaY/versions/Fp41yCdi/footprintparticle-0.7.1%2B1.21.1-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/forcecloseloadingscreen-2.2.3.jar",
+      "mode": "sync",
+      "sha256": "32e00702f5f08622a1e6d02686c60ebddf1e4381b71087887a7a3a201f4138bd",
+      "size": 115043,
+      "url": "https://cdn.modrinth.com/data/blWBX5n1/versions/G95MOUIu/forcecloseloadingscreen-2.2.3.jar"
     },
     {
       "path": ".minecraft/mods/freecam-fabric-1.3.0+mc1.21.jar",
@@ -1918,6 +1939,13 @@
       "sha256": "ba03c34c2533e5bff3803b3134d73c82abba337d62de55e33479ec20f3dc5272",
       "size": 13669146,
       "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/CjTooKpp/supplementaries-1.21.1-4.0.2-fabric.jar"
+    },
+    {
+      "path": ".minecraft/mods/threadtweak-fabric-0.1.5+mc1.21.1.jar",
+      "mode": "sync",
+      "sha256": "d5c0b0f5014b2ab729b820ad17acab7ce7f51b6dd72a5655839b31f6a2394682",
+      "size": 144270,
+      "url": "https://cdn.modrinth.com/data/vSEH1ERy/versions/F4sjmsi3/threadtweak-fabric-0.1.5%2Bmc1.21.1.jar"
     },
     {
       "path": ".minecraft/mods/tokimistoolshed-fabric-1.8+mc1.21.jar",
