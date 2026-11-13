@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-13T20:42:15Z",
+  "generatedAt": "2026-11-13T20:48:27Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1192,6 +1192,13 @@
       "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/adpNvTZS/Jade-1.21.1-Fabric-15.10.6.jar"
     },
     {
+      "path": ".minecraft/mods/OritechBlackHoleDislocator-Fabric-1.21.1-0.0.2.jar",
+      "mode": "sync",
+      "sha256": "4b998ef7a702bd308302a21ff7d85c72f19a5c11e4fa3172499fe50f72e7f359",
+      "size": 50056,
+      "url": "https://cdn.modrinth.com/data/xkyxx4cm/versions/apOsz1Ii/OritechBlackHoleDislocator-Fabric-1.21.1-0.0.2.jar"
+    },
+    {
       "path": ".minecraft/mods/PresenceFootsteps-1.11.2+1.21.jar",
       "mode": "sync",
       "sha256": "0108e0df22f395bed4053b20d05663f98ea89db760c0cf0b7fb2d0edecb5af49",
@@ -1659,6 +1666,20 @@
       "sha256": "e7b0c76c3e700adb9751fcec2bbe077dc0619293d07860acd3a33b8a6bd3cc80",
       "size": 10763611,
       "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/GNbpMyOn/oritech-fabric-1.21.1-1.2.13.jar"
+    },
+    {
+      "path": ".minecraft/mods/oritech_steel_tools-fabric-1.0.0.jar",
+      "mode": "sync",
+      "sha256": "689436901440670e66d853b710da32c1eec5daae000b96fdec087817c35c7396",
+      "size": 25892,
+      "url": "https://cdn.modrinth.com/data/lYiulGnT/versions/b3KldfTC/oritech_steel_tools-fabric-1.0.0.jar"
+    },
+    {
+      "path": ".minecraft/mods/oritechnical-1.0.0.jar",
+      "mode": "sync",
+      "sha256": "1304be63e495bca0a9e60d07d6d26d3907bb78e61aaf4605a1ea37627160fd75",
+      "size": 97943,
+      "url": "https://cdn.modrinth.com/data/6qnZv5A4/versions/uDZWPsyT/oritechnical-1.0.0.jar"
     },
     {
       "path": ".minecraft/mods/owo-lib-0.12.15.4+1.21.jar",
