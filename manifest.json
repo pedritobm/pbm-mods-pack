@@ -1,9 +1,9 @@
 {
   "pack": "PBM Mods",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "minecraft": "1.21.1",
   "loader": "fabric",
-  "generatedAt": "2026-11-13T21:16:41Z",
+  "generatedAt": "2026-11-13T21:18:32Z",
   "syncRoots": [
     ".minecraft/mods"
   ],
@@ -1143,6 +1143,13 @@
       "url": "https://cdn.modrinth.com/data/m0oRwcZx/versions/B9tByLOZ/CameraOverhaul-v2.1.2-fabric%2Bmc%5B1.21-1.21.2%5D.jar"
     },
     {
+      "path": ".minecraft/mods/Controlling-fabric-1.21.1-19.0.5.jar",
+      "mode": "sync",
+      "sha256": "c0150c5bfbc77f27b92f24a5a9c2edc462eba8c8f912635757c5deb3a0a93f8d",
+      "size": 83679,
+      "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/hGJDoW2W/Controlling-fabric-1.21.1-19.0.5.jar"
+    },
+    {
       "path": ".minecraft/mods/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
       "mode": "sync",
       "sha256": "c5d9767c1db11f90e2661f11d54aabc80dd93a45fb9f85f9cc6a3e951ebe6de1",
@@ -1225,6 +1232,13 @@
       "sha256": "f32ed8d825c7af90b14ab9f7bbe1293818bcf411fea104ae20d18ecde30f8387",
       "size": 177266,
       "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/Yx1tgJMI/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar"
+    },
+    {
+      "path": ".minecraft/mods/Searchables-fabric-1.21.1-1.0.2.jar",
+      "mode": "sync",
+      "sha256": "0b58a40a41db4a4af4ef84475b0ea330be3b18fdcac2eca68ede46d9f4df3d76",
+      "size": 79531,
+      "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/tRdr8Bg3/Searchables-fabric-1.21.1-1.0.2.jar"
     },
     {
       "path": ".minecraft/mods/SimplyTooltips-fabric-0.1.5.jar",
