@@ -2,5 +2,6 @@
   {"version":2},
   {"recipe":"oritech:crafting/basicgen","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"recipe":"oritech:crafting/magnet","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
-  {"recipe":"oritech:crafting/electricfurnace","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+  {"recipe":"oritech:crafting/electricfurnace","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"magistuarmory:steel_ring"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
